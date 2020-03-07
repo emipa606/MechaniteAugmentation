@@ -1,0 +1,1009 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<RecipeDef Abstract="True" Name="MASurgeryFlesh">
+		<effectWorking>Surgery</effectWorking>
+		<soundWorking>Recipe_Surgery</soundWorking>
+		<workSpeedStat>MedicalOperationSpeed</workSpeedStat>
+		<workSkill>Medicine</workSkill>
+		<workSkillLearnFactor>16</workSkillLearnFactor>
+		<recipeUsers>
+			<li>Human</li>
+		</recipeUsers>
+	</RecipeDef>
+
+	<!-- Mechanite Augs --> 
+
+<!--	<RecipeDef ParentName="MASurgeryFlesh">
+		<defName>InjectMechanitesDMk1</defName>
+		<label>inject Mk-I dermis mechanites</label>
+		<description>Injects mechanites.</description>
+		<workerClass>Recipe_InstallImplant</workerClass>
+		<jobString>Injecting mechanites.</jobString>
+		<workAmount>1200</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+          <categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>MechanitesPhysicalI</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+				<li>MechanitesPhysicalI</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Torso</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>FibrousMechanitesI</addsHediff>
+	</RecipeDef-->
+	
+	<RecipeDef ParentName="MASurgeryFlesh">
+		<defName>InjectMechanitesFMk1</defName>
+		<label>inject Mk-I fibrous mechanites</label>
+		<description>Injects mechanites.</description>
+		<workerClass>Recipe_InstallImplant</workerClass>
+		<jobString>Injecting mechanites.</jobString>
+		<workAmount>1200</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+          <categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>MechanitesPhysicalI</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+				<li>MechanitesPhysicalI</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Torso</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>FibrousMechanitesI</addsHediff>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="MASurgeryFlesh">
+		<defName>InjectMechanitesCMk1</defName>
+		<label>inject Mk-I sensory mechanites</label>
+		<description>Injects mechanites.</description>
+		<workerClass>Recipe_InstallImplant</workerClass>
+		<jobString>Injecting mechanites.</jobString>
+		<workAmount>1200</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+          <categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>MechanitesMindI</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+				<li>MechanitesMindI</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Brain</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>SensoryMechanitesI</addsHediff>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="MASurgeryFlesh">
+		<defName>InjectMechanitesFMk2</defName>
+		<label>inject Mk-II fibrous mechanites</label>
+		<description>Injects mechanites.</description>
+		<workerClass>Recipe_InstallImplant</workerClass>
+		<jobString>Injecting mechanites.</jobString>
+		<workAmount>1200</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+          <categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>MechanitesPhysicalII</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+				<li>MechanitesPhysicalII</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Torso</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>FibrousMechanitesII</addsHediff>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="MASurgeryFlesh">
+		<defName>InjectMechanitesCMk2</defName>
+		<label>inject Mk-II sensory mechanites</label>
+		<description>Injects mechanites.</description>
+		<workerClass>Recipe_InstallImplant</workerClass>
+		<jobString>Injecting mechanites.</jobString>
+		<workAmount>1200</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+          <categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>MechanitesMindII</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+				<li>MechanitesMindII</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Brain</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>SensoryMechanitesII</addsHediff>
+	</RecipeDef>
+	
+<!-- Mark 3s -->
+
+	<RecipeDef ParentName="MASurgeryFlesh">
+		<defName>InjectMechanitesFMk3</defName>
+		<label>inject Mk-III fibrous mechanites</label>
+		<description>Injects mechanites.</description>
+		<workerClass>Recipe_InstallImplant</workerClass>
+		<jobString>Injecting mechanites.</jobString>
+		<workAmount>1200</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+          <categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>MechanitesPhysicalIII</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+				<li>MechanitesPhysicalIII</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Torso</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>FibrousMechanitesIII</addsHediff>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="MASurgeryFlesh">
+		<defName>InjectMechanitesCMk3</defName>
+		<label>inject Mk-III sensory mechanites</label>
+		<description>Injects mechanites.</description>
+		<workerClass>Recipe_InstallImplant</workerClass>
+		<jobString>Injecting mechanites.</jobString>
+		<workAmount>1200</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+          <categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>MechanitesMindIII</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+				<li>MechanitesMindIII</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Brain</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>SensoryMechanitesIII</addsHediff>
+	</RecipeDef>
+
+<!-- Pirated mechanites -->
+
+	<RecipeDef ParentName="MASurgeryFlesh">
+		<defName>InjectMechanitesFMk4</defName>
+		<label>inject pirated fibrous mechanites</label>
+		<description>Injects mechanites.</description>
+		<workerClass>Recipe_InstallImplant</workerClass>
+		<jobString>Injecting mechanites.</jobString>
+		<workAmount>1200</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+          <categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>MechanitesPhysicalIV</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+				<li>MechanitesPhysicalIV</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Torso</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>FibrousMechanitesIV</addsHediff>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="MASurgeryFlesh">
+		<defName>InjectMechanitesCMk4</defName>
+		<label>inject pirated sensory mechanites</label>
+		<description>Injects mechanites.</description>
+		<workerClass>Recipe_InstallImplant</workerClass>
+		<jobString>Injecting mechanites.</jobString>
+		<workAmount>1200</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+          <categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>MechanitesMindIV</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+				<li>MechanitesMindIV</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Brain</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>SensoryMechanitesIV</addsHediff>
+	</RecipeDef>	
+
+	<!-- Mechanical Augs -->
+	
+	<RecipeDef ParentName="MASurgeryFlesh">
+		<defName>InstallEyeProsthethic1</defName>
+		<label>install light sensitive prosthethic eye</label>
+		<description>Installs prosthethic.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Operating on patient.</jobString>
+		<workAmount>2000</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+            <categories>
+				<li>Medicine</li>
+			</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>CrudeProsthethicEye</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+			<li>CrudeProsthethicEye</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+		<li>Eye</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>CrudeProsthethicEye</addsHediff>
+	</RecipeDef>	
+	
+	<RecipeDef ParentName="MASurgeryFlesh">
+		<defName>InstallEyeProsthethic2</defName>
+		<label>install monochrome prosthetic eye</label>
+		<description>Installs prosthethic.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Operating on patient.</jobString>
+		<workAmount>2000</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+            <categories>
+				<li>Medicine</li>
+			</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SimpleProsthethicEye</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+			<li>SimpleProsthethicEye</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Eye</li>
+			
+		</appliedOnFixedBodyParts>
+		<addsHediff>SimpleProsthethicEye</addsHediff>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="MASurgeryFlesh">
+		<defName>InstallEyeProsthethic3</defName>
+		<label>install trichromatic prosthethic eye</label>
+		<description>Installs prosthethic.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Operating on patient.</jobString>
+		<workAmount>2000</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+            <categories>
+				<li>Medicine</li>
+			</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ColorProsthethicEye</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+			<li>ColorProsthethicEye</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Eye</li>
+			
+		</appliedOnFixedBodyParts>
+		<addsHediff>ColorProsthethicEye</addsHediff>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="MASurgeryFlesh">
+		<defName>InstallEyeProsthethic4</defName>
+		<label>install HD prosthethic eye</label>
+		<description>Installs prosthethic.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Operating on patient.</jobString>
+		<workAmount>2000</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+            <categories>
+				<li>Medicine</li>
+			</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>HDProsthethicEye</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+			<li>HDProsthethicEye</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Eye</li>
+			
+		</appliedOnFixedBodyParts>
+		<addsHediff>HDProsthethicEye</addsHediff>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="MASurgeryFlesh">
+		<defName>InstallEyeProsthethic2</defName>
+		<label>install sharpshooter eye</label>
+		<description>Installs prosthethic.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Operating on patient.</jobString>
+		<workAmount>2000</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+            <categories>
+				<li>Medicine</li>
+			</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SharpShooter</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+			<li>SharpShooter</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Eye</li>
+			
+		</appliedOnFixedBodyParts>
+		<addsHediff>SharpShooter</addsHediff>
+	</RecipeDef>
+	
+<!-- Added Limbs -->
+
+	<RecipeDef ParentName="MASurgeryFlesh">
+		<defName>InstalllimbProsthethic1</defName>
+		<label>install hydraulic arm</label>
+		<description>Installs prosthethic.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Operating on patient.</jobString>
+		<workAmount>2000</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+            <categories>
+				<li>Medicine</li>
+			</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>HydraulicArm</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+			<li>HydraulicArm</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Shoulder</li>
+			
+		</appliedOnFixedBodyParts>
+		<addsHediff>HydraulicArm</addsHediff>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="MASurgeryFlesh">
+		<defName>InstalllimbProsthethic2</defName>
+		<label>install hydraulic leg</label>
+		<description>Installs prosthethic.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Operating on patient.</jobString>
+		<workAmount>2000</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+            <categories>
+				<li>Medicine</li>
+			</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>HydraulicLeg</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+			<li>HydraulicLeg</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Leg</li>
+			
+		</appliedOnFixedBodyParts>
+		<addsHediff>HydraulicLeg</addsHediff>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="MASurgeryFlesh">
+		<defName>InstalllimbProsthethic3</defName>
+		<label>install hydraulic spine</label>
+		<description>Installs prosthethic.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Operating on patient.</jobString>
+		<workAmount>2000</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+            <categories>
+				<li>Medicine</li>
+			</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>HydraulicSpine</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+			<li>HydraulicSpine</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Spine</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>HydraulicSpine</addsHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="MASurgeryFlesh">
+		<defName>InstalllimbProsthethic4</defName>
+		<label>install claw implant</label>
+		<description>Installs prosthethic.</description>
+		<workerClass>Recipe_InstallImplant</workerClass>
+		<jobString>Operating on patient.</jobString>
+		<workAmount>2000</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+            <categories>
+				<li>Medicine</li>
+			</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>BadgerClaw</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+			<li>BadgerClaw</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Hand</li>
+			
+		</appliedOnFixedBodyParts>
+		<addsHediff>BadgerClaw</addsHediff>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="MASurgeryFlesh">
+		<defName>InstallImplant1</defName>
+		<label>install metal plate</label>
+		<description>Installs implant.</description>
+		<workerClass>Recipe_InstallImplant</workerClass>
+		<jobString>Operating on patient.</jobString>
+		<workAmount>2000</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+            <categories>
+				<li>Medicine</li>
+			</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>MetalPlate</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+			<li>MetalPlate</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Skull</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>MetalPlate</addsHediff>
+	</RecipeDef>
+
+	<!--RecipeDef ParentName="MASurgeryFlesh">
+		<defName>InstallImplant2</defName>
+		<label>install lazarus implant</label>
+		<description>Installs implant.</description>
+		<workerClass>Recipe_InstallImplant</workerClass>
+		<jobString>Operating on patient.</jobString>
+		<workAmount>2000</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+            <categories>
+				<li>Medicine</li>
+			</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Lazarite</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+			<li>Lazarite</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Torso</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>Lazarite</addsHediff>
+	</RecipeDef-->
+	
+	<RecipeDef ParentName="MASurgeryFlesh">
+		<defName>InstallImplant3</defName>
+		<label>install toxin scrubber implant</label>
+		<description>Installs implant.</description>
+		<workerClass>Recipe_InstallImplant</workerClass>
+		<jobString>Operating on patient.</jobString>
+		<workAmount>2000</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+            <categories>
+				<li>Medicine</li>
+			</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ToxinScrub</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+			<li>ToxinScrub</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			
+			<li>Lung</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>ToxinScrub</addsHediff>
+	</RecipeDef>
+
+	<!--RecipeDef ParentName="MASurgeryFlesh">
+		<defName>InstallImplant4</defName>
+		<label>install backup heart implant</label>
+		<description>Installs implant.</description>
+		<workerClass>Recipe_InstallImplant</workerClass>
+		<jobString>Operating on patient.</jobString>
+		<workAmount>2000</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+            <categories>
+				<li>Medicine</li>
+			</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>BackupHeart</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+			<li>BackupHeart</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Torso</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>BackupHeart</addsHediff>
+	</RecipeDef-->
+	
+	<RecipeDef ParentName="MASurgeryFlesh">
+		<defName>InstallImplant5</defName>
+		<label>install immune booster implant</label>
+		<description>Installs implant.</description>
+		<workerClass>Recipe_InstallImplant</workerClass>
+		<jobString>Operating on patient.</jobString>
+		<workAmount>2000</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+            <categories>
+				<li>Medicine</li>
+			</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ImmuneBoost</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+			<li>ImmuneBoost</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Torso</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>ImmuneBoost</addsHediff>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="MASurgeryFlesh">
+		<defName>InstallImplant6</defName>
+		<label>install co-processor implant</label>
+		<description>Installs implant.</description>
+		<workerClass>Recipe_InstallImplant</workerClass>
+		<jobString>Operating on patient.</jobString>
+		<workAmount>2000</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+            <categories>
+				<li>Medicine</li>
+			</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>CoProcess</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+			<li>CoProcess</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Brain</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>CoProcess</addsHediff>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="MASurgeryFlesh">
+		<defName>InstallImplant7</defName>
+		<label>install gunslinger implant</label>
+		<description>Installs implant.</description>
+		<workerClass>Recipe_InstallImplant</workerClass>
+		<jobString>Operating on patient.</jobString>
+		<workAmount>2000</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+            <categories>
+				<li>Medicine</li>
+			</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GunSlinger</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+			<li>GunSlinger</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Brain</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>GunSlinger</addsHediff>
+	</RecipeDef>
+
+
+</Defs>

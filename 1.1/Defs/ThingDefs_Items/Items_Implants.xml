@@ -1,0 +1,353 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef Name="MAImplantBase" Abstract="True">
+    <label>implant</label>
+    <thingClass>ThingWithComps</thingClass>
+    <category>Item</category>
+    <useHitPoints>true</useHitPoints>
+    <selectable>true</selectable>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+    </statBases>
+    <altitudeLayer>Item</altitudeLayer>
+    <tickerType>Never</tickerType>
+    <alwaysHaulable>true</alwaysHaulable>
+    <isTechHediff>true</isTechHediff>
+    <tradeTags>
+      <li>BodyPartOrImplant</li>
+    </tradeTags>
+    <comps>
+      <li Class="CompProperties_Forbiddable"/>
+    </comps>
+    <thingCategories>
+      <li>BodyPartsBionic</li>
+    </thingCategories>
+    <pathCost>10</pathCost>
+  </ThingDef>
+  
+  <!-- ideas for mechanical implants
+  
+  Heart filter (also toxins)
+  Lung Filter (filters  toxins)
+  Immune Booster (as it says)
+  Backup-Heart (torso)
+  Neural-Co-processor (learning implant)
+  metal plate (skull, blocks psionic)
+  Gunslinger (arm/torso, improves gun handling reaction times)
+  Lazarus (torso, maintains minimal conciousness)
+  Mechanite Factory
+  
+  -->
+  
+  <!--ThingDef ParentName="MAImplantBase">
+    <defName>Lazarite</defName>
+    <label>Lazarus Implant</label>
+    <description>A one-use nanotech injector device containing mechanites. Banned even in the more advanced sectors of the galactic commonwealth. This strain backs up your conciousness to a secondary artificial cortex in the event of critical damage to the original, maintaining basic bodily and cerebral functions until surgical repairs can be made.</description>
+    <graphicData>
+      <texPath>Things/Item/Health/HealthItem</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>500</MarketValue>
+    </statBases>
+    <techHediffsTags>
+      <li>Advanced</li>
+    </techHediffsTags>
+  </ThingDef-->
+
+  <ThingDef ParentName="MAImplantBase">
+    <defName>MetalPlate</defName>
+    <label>metal plate implant</label>
+    <description>A simple metal plate commonly used for crude bone repair surgery. Undocumented side-effects include resistance towards psionic manipulation.</description>
+    <graphicData>
+      <texPath>Things/Item/Health/HealthItem</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>500</MarketValue>
+	  <Mass>2</Mass>
+    </statBases>
+    <techHediffsTags>
+      <li>Simple</li>
+    </techHediffsTags>
+  </ThingDef>
+  
+  <ThingDef ParentName="MAImplantBase">
+    <defName>ToxinScrub</defName>
+    <label>toxin scrubber implant</label>
+    <description>A high tech device that attaches to the lungs. This device scrubs toxins out of contaminated atmospheres, granting partial protection against toxins to their user.</description>
+    <graphicData>
+      <texPath>Things/Item/Health/HealthItem</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>800</MarketValue>
+	  <Mass>2</Mass>
+    </statBases>
+    <techHediffsTags>
+      <li>Advanced</li>
+    </techHediffsTags>
+  </ThingDef>
+  
+
+  
+  <!--ThingDef ParentName="MAImplantBase">
+    <defName>BackupHeart</defName>
+    <label>back-up heart implant</label>
+    <description>A high tech device that is installed in the torsal cavity. This device acts as a backup heart in the event of heart-failure.</description>
+    <graphicData>
+      <texPath>Things/Item/Health/HealthItem</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>500</MarketValue>
+    </statBases>
+    <techHediffsTags>
+      <li>Advanced</li>
+    </techHediffsTags>
+  </ThingDef-->
+  
+  <!--ThingDef ParentName="MAImplantBase">
+    <defName>Temp</defName>
+    <label>template</label>
+    <description>template description.</description>
+    <graphicData>
+      <texPath>Things/Item/Health/HealthItem</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>500</MarketValue>
+    </statBases>
+    <techHediffsTags>
+      <li>Advanced</li>
+    </techHediffsTags>
+  </ThingDef-->
+  
+  <ThingDef ParentName="MAImplantBase">
+    <defName>ImmuneBoost</defName>
+    <label>Immune System Booster Implant</label>
+    <description>A mechanite-factory specializing in assisting the body's natural immune response to fight off infections.</description>
+    <graphicData>
+      <texPath>Things/Item/Health/HealthItem</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>1200</MarketValue>
+	  <Mass>2</Mass>
+    </statBases>
+    <techHediffsTags>
+      <li>Advanced</li>
+    </techHediffsTags>
+  </ThingDef>
+
+  <ThingDef ParentName="MAImplantBase">
+    <defName>CoProcess</defName>
+    <label>Neural Co-Processor Implant</label>
+    <description>A brain implant that enhances ones ability to learn. Popular among glitterworld students.</description>
+    <graphicData>
+      <texPath>Things/Item/Health/HealthItem</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>1250</MarketValue>
+	  <Mass>2</Mass>
+    </statBases>
+    <techHediffsTags>
+      <li>Advanced</li>
+    </techHediffsTags>
+  </ThingDef>
+  
+  <ThingDef ParentName="MAImplantBase">
+    <defName>GunSlinger</defName>
+    <label>Gunslinger Implant</label>
+    <description>A neural-muscular enhancing implant that improves skills with ranged weapons.</description>
+    <graphicData>
+      <texPath>Things/Item/Health/HealthItem</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>800</MarketValue>
+	  <Mass>2</Mass>
+    </statBases>
+    <techHediffsTags>
+      <li>Advanced</li>
+    </techHediffsTags>
+  </ThingDef>
+  
+  <ThingDef ParentName="MAImplantBase">
+    <defName>BadgerClaw</defName>
+    <label>badger claw implant</label>
+    <description>A retractable melee weapon that is surgically grafted to your hands. While retaining their functions.</description>
+    <graphicData>
+      <texPath>Things/Item/Health/HealthItem</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>500</MarketValue>
+	  <Mass>2</Mass>
+    </statBases>
+    <techHediffsTags>
+      <li>Advanced</li>
+    </techHediffsTags>
+  </ThingDef>
+  
+
+  
+  <!--ThingDef ParentName="MAImplantBase">
+    <defName>MechaniteFab</defName>
+    <label>Mechanite Factory Implant</label>
+    <description>A miniature mechanite factory that contineously supplies a patient with helpful mechanites, runs on biochemical processes and will last as long as the patient does. Rather than relying on a finite number of mechanites.</description>
+    <graphicData>
+      <texPath>Things/Item/Health/HealthItem</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>500</MarketValue>
+    </statBases>
+    <techHediffsTags>
+      <li>Advanced</li>
+    </techHediffsTags>
+  </ThingDef-->
+  
+  
+  <!-- Goo cans -->
+  
+  <ThingDef ParentName="MAImplantBase">
+    <defName>MechanitesPhysicalI</defName>
+    <label>Mk I Mechanites (Physical)</label>
+    <description>A one-use nanotech injector device containing mechanites. Banned even in the more advanced sectors of the galactic commonwealth. This strain augments physical capability.</description>
+    <graphicData>
+      <texPath>MechaniteCan</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>750</MarketValue>
+	  <Mass>2</Mass>
+    </statBases>
+    <techHediffsTags>
+      <li>Advanced</li>
+    </techHediffsTags>
+  </ThingDef>
+
+  
+  <ThingDef ParentName="MAImplantBase">
+    <defName>MechanitesMindI</defName>
+    <label>Mk I Mechanites (Cerebral)</label>
+    <description>A one-use nanotech injector device containing mechanites. Banned even in the more advanced sectors of the galactic commonwealth. This strain augments cerebral capacity.</description>
+    <graphicData>
+      <texPath>MechaniteCan</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>750</MarketValue>
+	  <Mass>2</Mass>
+    </statBases>
+    <techHediffsTags>
+      <li>Advanced</li>
+    </techHediffsTags>
+  </ThingDef>
+
+  <ThingDef ParentName="MAImplantBase">
+    <defName>MechanitesPhysicalII</defName>
+    <label>Mk II Mechanites (Physical)</label>
+    <description>A one-use nanotech injector device containing mechanites. Banned even in the more advanced sectors of the galactic commonwealth. This strain augments physical capability.</description>
+    <graphicData>
+      <texPath>MechaniteCan</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>950</MarketValue>
+	  <Mass>2</Mass>
+    </statBases>
+    <techHediffsTags>
+      <li>Advanced</li>
+    </techHediffsTags>
+  </ThingDef>
+
+  <ThingDef ParentName="MAImplantBase">
+    <defName>MechanitesMindII</defName>
+    <label>Mk II Mechanites (Cerebral)</label>
+    <description>A one-use nanotech injector device containing mechanites. Banned even in the more advanced sectors of the galactic commonwealth. This strain augments cerebral capacity.</description>
+    <graphicData>
+      <texPath>MechaniteCan</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>950</MarketValue>
+	  <Mass>2</Mass>
+    </statBases>
+    <techHediffsTags>
+      <li>Advanced</li>
+    </techHediffsTags>
+  </ThingDef>
+  
+  <ThingDef ParentName="MAImplantBase">
+    <defName>MechanitesPhysicalIII</defName>
+    <label>Mk III Mechanites (Physical)</label>
+    <description>A one-use nanotech injector device containing mechanites. Banned even in the more advanced sectors of the galactic commonwealth. This strain augments physical capability.</description>
+    <graphicData>
+      <texPath>MechaniteCan</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>1550</MarketValue>
+	  <Mass>2</Mass>
+    </statBases>
+    <techHediffsTags>
+      <li>Advanced</li>
+    </techHediffsTags>
+  </ThingDef>
+
+  <ThingDef ParentName="MAImplantBase">
+    <defName>MechanitesMindIII</defName>
+    <label>Mk III Mechanites (Cerebral)</label>
+    <description>A one-use nanotech injector device containing mechanites. Banned even in the more advanced sectors of the galactic commonwealth. This strain augments cerebral capacity.</description>
+    <graphicData>
+      <texPath>MechaniteCan</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>1550</MarketValue>
+	  <Mass>2</Mass>
+    </statBases>
+    <techHediffsTags>
+      <li>Advanced</li>
+    </techHediffsTags>
+  </ThingDef>
+ 
+  <ThingDef ParentName="MAImplantBase">
+    <defName>MechanitesPhysicalIV</defName>
+    <label>Mk IV Mechanites (Physical)</label>
+    <description>A bootleg, one-use nanotech injector device containing mechanites, 'improved' in your local black market.  Results may vary. Banned even in the more advanced sectors of the galactic commonwealth. This strain augments physical capability, and is highly volatile.  Don't expect these to function for long.</description>
+    <graphicData>
+      <texPath>MechaniteCan</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>1250</MarketValue>
+	  <Mass>2</Mass>
+    </statBases>
+    <techHediffsTags>
+      <li>Advanced</li>
+    </techHediffsTags>
+  </ThingDef>
+
+  <ThingDef ParentName="MAImplantBase">
+    <defName>MechanitesMindIV</defName>
+    <label>Mk IV Mechanites (Cerebral)</label>
+    <description>A bootleg, one-use nanotech injector device containing mechanites, 'improved' in your local black market.  Results may vary. Banned even in the more advanced sectors of the galactic commonwealth. This strain augments cerebral capacity, and is highly volatile.  Don't expect these to function for long.</description>
+    <graphicData>
+      <texPath>MechaniteCan</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>1250</MarketValue>
+	  <Mass>2</Mass>
+    </statBases>
+    <techHediffsTags>
+      <li>Advanced</li>
+    </techHediffsTags>
+  </ThingDef>
+</Defs>
