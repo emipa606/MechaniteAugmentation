@@ -1,6 +1,5 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
   <HediffDef Name="MAInfectionBase" Abstract="True">
     <hediffClass>HediffWithComps</hediffClass>
     <defaultLabelColor>(0.35, 0.8, 0.8)</defaultLabelColor>
@@ -10,7 +9,6 @@
       </li>
     </comps>
   </HediffDef>
-
   <HediffDef Name="MAInfectionTreatableBase" ParentName="MAInfectionBase" Abstract="True">
     <comps>
       <li Class="HediffCompProperties_TendDuration">
@@ -18,15 +16,14 @@
       </li>
     </comps>
   </HediffDef>
-
   <HediffDef Abstract="True" ParentName="MAInfectionBase" Name="MAMechanitesBase">
     <hediffClass>HediffWithComps</hediffClass>
     <makesSickThought>false</makesSickThought>
-		<tendable>true</tendable>
+    <tendable>true</tendable>
     <makesAlert>false</makesAlert>
-        <minSeverity>0.001</minSeverity>
-        <maxSeverity>1</maxSeverity>
-	<initialSeverity>0.001</initialSeverity>
+    <minSeverity>0.001</minSeverity>
+    <maxSeverity>1</maxSeverity>
+    <initialSeverity>0.001</initialSeverity>
     <comps>
       <li Class="HediffCompProperties_Disappears">
         <disappearsAfterTicks>
@@ -43,16 +40,15 @@
       </li>
     </comps>
   </HediffDef>
-
   <HediffDef Abstract="True" ParentName="MAInfectionBase" Name="MAMechanitesPirated">
     <hediffClass>HediffWithComps</hediffClass>
     <makesSickThought>false</makesSickThought>
-		<tendable>true</tendable>
+    <tendable>true</tendable>
     <makesAlert>false</makesAlert>
-        <minSeverity>0.001</minSeverity>
-        <maxSeverity>1</maxSeverity>
-	<initialSeverity>0.001</initialSeverity>
-	    <comps>
+    <minSeverity>0.001</minSeverity>
+    <maxSeverity>1</maxSeverity>
+    <initialSeverity>0.001</initialSeverity>
+    <comps>
       <li Class="HediffCompProperties_Disappears">
         <disappearsAfterTicks>
           <min>60000</min>
@@ -68,21 +64,17 @@
       </li>
     </comps>
   </HediffDef>
-  
-<!-- Specialized Mechanites: -->
-
-
-<!-- Mk-I Mechanites: Base grade -->
-  
+  <!-- Specialized Mechanites: -->
+  <!-- Mk-I Mechanites: Base grade -->
   <HediffDef ParentName="MAMechanitesBase">
     <defName>DermalMechanitesI</defName>
     <label>Mk-I dermis mechanites</label>
     <description>Mk-I dermis mechanites</description>
     <stages>
       <li>
-	    <label>functioning</label>
+        <label>functioning</label>
         <restFallFactor>1.2</restFallFactor>
-		<hungerRateFactor>1.2</hungerRateFactor>
+        <hungerRateFactor>1.2</hungerRateFactor>
         <capMods>
           <li>
             <capacity>Manipulation</capacity>
@@ -99,10 +91,10 @@
         </capMods>
       </li>
       <li>
-	    <label>degrading</label>
+        <label>degrading</label>
         <minSeverity>0.1</minSeverity>
         <restFallFactor>1.5</restFallFactor>
-		<hungerRateFactor>1.5</hungerRateFactor>
+        <hungerRateFactor>1.5</hungerRateFactor>
         <capMods>
           <li>
             <capacity>Manipulation</capacity>
@@ -123,8 +115,8 @@
         <label>malfunctioning</label>
         <painOffset>0.1</painOffset>
         <restFallFactor>2.0</restFallFactor>
-		<hungerRateFactor>2.0</hungerRateFactor>
-		<vomitMtbDays>1.0</vomitMtbDays>
+        <hungerRateFactor>2.0</hungerRateFactor>
+        <vomitMtbDays>1.0</vomitMtbDays>
         <capMods>
           <li>
             <capacity>Manipulation</capacity>
@@ -142,19 +134,16 @@
       </li>
     </stages>
   </HediffDef>
-
-
-<!-- Mk-I Mechanites: Base grade -->
-  
+  <!-- Mk-I Mechanites: Base grade -->
   <HediffDef ParentName="MAMechanitesBase">
     <defName>FibrousMechanitesI</defName>
     <label>Mk-I fibrous mechanites</label>
     <description>Mk-I fibrous mechanites</description>
     <stages>
       <li>
-	    <label>functioning</label>
+        <label>functioning</label>
         <restFallFactor>1.2</restFallFactor>
-		<hungerRateFactor>1.2</hungerRateFactor>
+        <hungerRateFactor>1.2</hungerRateFactor>
         <capMods>
           <li>
             <capacity>Manipulation</capacity>
@@ -171,10 +160,10 @@
         </capMods>
       </li>
       <li>
-	    <label>degrading</label>
+        <label>degrading</label>
         <minSeverity>0.1</minSeverity>
         <restFallFactor>1.5</restFallFactor>
-		<hungerRateFactor>1.5</hungerRateFactor>
+        <hungerRateFactor>1.5</hungerRateFactor>
         <capMods>
           <li>
             <capacity>Manipulation</capacity>
@@ -195,8 +184,8 @@
         <label>malfunctioning</label>
         <painOffset>0.1</painOffset>
         <restFallFactor>2.0</restFallFactor>
-		<hungerRateFactor>2.0</hungerRateFactor>
-		<vomitMtbDays>1.0</vomitMtbDays>
+        <hungerRateFactor>2.0</hungerRateFactor>
+        <vomitMtbDays>1.0</vomitMtbDays>
         <capMods>
           <li>
             <capacity>Manipulation</capacity>
@@ -214,16 +203,15 @@
       </li>
     </stages>
   </HediffDef>
-
   <HediffDef ParentName="MAMechanitesBase">
     <defName>SensoryMechanitesI</defName>
     <label>Mk-I sensory mechanites</label>
     <description>Mk-I sensory mechanites</description>
     <stages>
       <li>
-	    <label>functioning</label>
+        <label>functioning</label>
         <restFallFactor>1.2</restFallFactor>
-		<hungerRateFactor>1.2</hungerRateFactor>
+        <hungerRateFactor>1.2</hungerRateFactor>
         <capMods>
           <li>
             <capacity>Sight</capacity>
@@ -244,10 +232,10 @@
         </capMods>
       </li>
       <li>
-	    <label>degrading</label>
+        <label>degrading</label>
         <minSeverity>0.1</minSeverity>
         <restFallFactor>1.5</restFallFactor>
-		<hungerRateFactor>1.5</hungerRateFactor>
+        <hungerRateFactor>1.5</hungerRateFactor>
         <capMods>
           <li>
             <capacity>Sight</capacity>
@@ -272,8 +260,8 @@
         <label>malfunctioning</label>
         <painOffset>0.1</painOffset>
         <restFallFactor>2.0</restFallFactor>
-		<hungerRateFactor>2.0</hungerRateFactor>
-		<vomitMtbDays>1.0</vomitMtbDays>
+        <hungerRateFactor>2.0</hungerRateFactor>
+        <vomitMtbDays>1.0</vomitMtbDays>
         <capMods>
           <li>
             <capacity>Sight</capacity>
@@ -295,18 +283,16 @@
       </li>
     </stages>
   </HediffDef>
-
   <!-- Mark II augmentation Mechanites -->
-
-   <HediffDef ParentName="MAMechanitesBase">
+  <HediffDef ParentName="MAMechanitesBase">
     <defName>FibrousMechanitesII</defName>
     <label>Mk-II fibrous mechanites</label>
     <description>Mk-II fibrous mechanites</description>
     <stages>
       <li>
-	    <label>functioning</label>
+        <label>functioning</label>
         <restFallFactor>0.8</restFallFactor>
-		<hungerRateFactor>0.8</hungerRateFactor>
+        <hungerRateFactor>0.8</hungerRateFactor>
         <capMods>
           <li>
             <capacity>Manipulation</capacity>
@@ -323,10 +309,10 @@
         </capMods>
       </li>
       <li>
-	    <label>degrading</label>
+        <label>degrading</label>
         <minSeverity>0.1</minSeverity>
         <restFallFactor>1.0</restFallFactor>
-		<hungerRateFactor>1.0</hungerRateFactor>
+        <hungerRateFactor>1.0</hungerRateFactor>
         <capMods>
           <li>
             <capacity>Manipulation</capacity>
@@ -347,8 +333,8 @@
         <label>malfunctioning</label>
         <painOffset>0.3</painOffset>
         <restFallFactor>1.5</restFallFactor>
-		<hungerRateFactor>1.5</hungerRateFactor>
-		<vomitMtbDays>1.0</vomitMtbDays>
+        <hungerRateFactor>1.5</hungerRateFactor>
+        <vomitMtbDays>1.0</vomitMtbDays>
         <capMods>
           <li>
             <capacity>Manipulation</capacity>
@@ -366,16 +352,15 @@
       </li>
     </stages>
   </HediffDef>
-
   <HediffDef ParentName="MAMechanitesBase">
     <defName>SensoryMechanitesII</defName>
     <label>Mk-II sensory mechanites</label>
     <description>Mk-II sensory mechanites</description>
     <stages>
       <li>
-	    <label>functioning</label>
+        <label>functioning</label>
         <restFallFactor>0.8</restFallFactor>
-		<hungerRateFactor>0.8</hungerRateFactor>
+        <hungerRateFactor>0.8</hungerRateFactor>
         <capMods>
           <li>
             <capacity>Sight</capacity>
@@ -397,9 +382,9 @@
       </li>
       <li>
         <minSeverity>0.1</minSeverity>
-		<label>degrading</label>
+        <label>degrading</label>
         <restFallFactor>1.0</restFallFactor>
-		<hungerRateFactor>1.0</hungerRateFactor>
+        <hungerRateFactor>1.0</hungerRateFactor>
         <capMods>
           <li>
             <capacity>Sight</capacity>
@@ -424,8 +409,8 @@
         <label>malfunctioning</label>
         <painOffset>0.3</painOffset>
         <restFallFactor>1.5</restFallFactor>
-		<hungerRateFactor>1.5</hungerRateFactor>
-		<vomitMtbDays>1.0</vomitMtbDays>
+        <hungerRateFactor>1.5</hungerRateFactor>
+        <vomitMtbDays>1.0</vomitMtbDays>
         <capMods>
           <li>
             <capacity>Sight</capacity>
@@ -447,18 +432,16 @@
       </li>
     </stages>
   </HediffDef>
-  
   <!-- Mark III augmentation Mechanites -->
-  
   <HediffDef ParentName="MAMechanitesBase">
     <defName>FibrousMechanitesIII</defName>
     <label>Mk-III fibrous mechanites</label>
     <description>Mk-III fibrous mechanites</description>
     <stages>
       <li>
-	    <label>functioning</label>
+        <label>functioning</label>
         <restFallFactor>0.7</restFallFactor>
-		<hungerRateFactor>1.3</hungerRateFactor>
+        <hungerRateFactor>1.3</hungerRateFactor>
         <capMods>
           <li>
             <capacity>Manipulation</capacity>
@@ -480,10 +463,10 @@
       </li>
       <li>
         <minSeverity>0.1</minSeverity>
-		<label>degrading</label>
-		<painOffset>0.2</painOffset>
+        <label>degrading</label>
+        <painOffset>0.2</painOffset>
         <restFallFactor>0.9</restFallFactor>
-		<hungerRateFactor>2</hungerRateFactor>
+        <hungerRateFactor>2</hungerRateFactor>
         <capMods>
           <li>
             <capacity>Manipulation</capacity>
@@ -504,8 +487,8 @@
         <label>malfunctioning</label>
         <painOffset>0.4</painOffset>
         <restFallFactor>1.2</restFallFactor>
-		<hungerRateFactor>2.5</hungerRateFactor>
-		<vomitMtbDays>1.0</vomitMtbDays>
+        <hungerRateFactor>2.5</hungerRateFactor>
+        <vomitMtbDays>1.0</vomitMtbDays>
         <capMods>
           <li>
             <capacity>Manipulation</capacity>
@@ -523,16 +506,15 @@
       </li>
     </stages>
   </HediffDef>
-
   <HediffDef ParentName="MAMechanitesBase">
     <defName>SensoryMechanitesIII</defName>
     <label>Mk-III sensory mechanites</label>
     <description>Mk-III sensory mechanites</description>
     <stages>
       <li>
-	    <label>functioning</label>
+        <label>functioning</label>
         <restFallFactor>0.7</restFallFactor>
-		<hungerRateFactor>1.3</hungerRateFactor>
+        <hungerRateFactor>1.3</hungerRateFactor>
         <capMods>
           <li>
             <capacity>Sight</capacity>
@@ -554,10 +536,10 @@
       </li>
       <li>
         <minSeverity>0.1</minSeverity>
-		<label>degrading</label>
-		<painOffset>0.2</painOffset>
+        <label>degrading</label>
+        <painOffset>0.2</painOffset>
         <restFallFactor>0.9</restFallFactor>
-		<hungerRateFactor>2</hungerRateFactor>
+        <hungerRateFactor>2</hungerRateFactor>
         <capMods>
           <li>
             <capacity>Sight</capacity>
@@ -582,8 +564,8 @@
         <label>malfunctioning</label>
         <painOffset>0.4</painOffset>
         <restFallFactor>1.5</restFallFactor>
-		<hungerRateFactor>2.5</hungerRateFactor>
-		<vomitMtbDays>1.0</vomitMtbDays>
+        <hungerRateFactor>2.5</hungerRateFactor>
+        <vomitMtbDays>1.0</vomitMtbDays>
         <capMods>
           <li>
             <capacity>Sight</capacity>
@@ -605,19 +587,17 @@
       </li>
     </stages>
   </HediffDef>
-  
   <!-- Mark IV augmentation Mechanites (Not legal!) -->
-  
   <HediffDef ParentName="MAMechanitesPirated">
     <defName>FibrousMechanitesIV</defName>
     <label>Pirated fibrous mechanites</label>
     <description>Pirated fibrous mechanites</description>
     <stages>
       <li>
-	    <label>functioning?</label>
+        <label>functioning?</label>
         <restFallFactor>0.5</restFallFactor>
-		<hungerRateFactor>1.2</hungerRateFactor>
-		<painOffset>0.1</painOffset>
+        <hungerRateFactor>1.2</hungerRateFactor>
+        <painOffset>0.1</painOffset>
         <capMods>
           <li>
             <capacity>Manipulation</capacity>
@@ -635,10 +615,10 @@
       </li>
       <li>
         <minSeverity>0.1</minSeverity>
-		<label>#error#!</label>
-		<painOffset>0.4</painOffset>
+        <label>#error#!</label>
+        <painOffset>0.4</painOffset>
         <restFallFactor>1.0</restFallFactor>
-		<hungerRateFactor>2</hungerRateFactor>
+        <hungerRateFactor>2</hungerRateFactor>
         <capMods>
           <li>
             <capacity>Manipulation</capacity>
@@ -659,7 +639,7 @@
         <label>#CRITICAL#ERROR!#</label>
         <painOffset>0.8</painOffset>
         <restFallFactor>1.2</restFallFactor>
-		<vomitMtbDays>1.0</vomitMtbDays>
+        <vomitMtbDays>1.0</vomitMtbDays>
         <capMods>
           <li>
             <capacity>Manipulation</capacity>
@@ -675,19 +655,18 @@
           </li>
         </capMods>
       </li>
-	 </stages>
-	</HediffDef>
-
+    </stages>
+  </HediffDef>
   <HediffDef ParentName="MAMechanitesPirated">
     <defName>SensoryMechanitesIV</defName>
     <label>Pirated sensory mechanites</label>
     <description>Pirated sensory mechanites</description>
     <stages>
       <li>
-	    <label>functioning?</label>
-	    <painOffset>0.1</painOffset>
+        <label>functioning?</label>
+        <painOffset>0.1</painOffset>
         <restFallFactor>0.5</restFallFactor>
-		<hungerRateFactor>1.2</hungerRateFactor>
+        <hungerRateFactor>1.2</hungerRateFactor>
         <capMods>
           <li>
             <capacity>Sight</capacity>
@@ -709,8 +688,8 @@
       </li>
       <li>
         <minSeverity>0.1</minSeverity>
-		<label>#error#!</label>
-		<painOffset>0.4</painOffset>
+        <label>#error#!</label>
+        <painOffset>0.4</painOffset>
         <restFallFactor>1.4</restFallFactor>
         <capMods>
           <li>
@@ -733,10 +712,10 @@
       </li>
       <li>
         <minSeverity>0.5</minSeverity>
-	    <label>#CRITICAL#ERROR!#</label>
+        <label>#CRITICAL#ERROR!#</label>
         <painOffset>0.8</painOffset>
         <restFallFactor>0.2</restFallFactor>
-		<vomitMtbDays>1.0</vomitMtbDays>
+        <vomitMtbDays>1.0</vomitMtbDays>
         <capMods>
           <li>
             <capacity>Sight</capacity>

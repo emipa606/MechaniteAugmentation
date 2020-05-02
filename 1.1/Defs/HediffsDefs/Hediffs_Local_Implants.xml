@@ -1,85 +1,76 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
   <!-- Implants -->
-
   <HediffDef Name="MAImplantHediffBase" Abstract="True">
     <hediffClass>Hediff_Implant</hediffClass>
     <defaultLabelColor>(0.65, 0.3, 0.9)</defaultLabelColor>
     <isBad>false</isBad>
   </HediffDef>
-
   <HediffDef ParentName="MAImplantHediffBase">
     <defName>MetalPlate</defName>
     <label>metal plate</label>
-	<description>metal plate</description>
+    <description>metal plate</description>
     <spawnThingOnRemoved>MetalPlate</spawnThingOnRemoved>
-	<stages>
+    <stages>
       <li>
-    <statOffsets>
-       <PsychicSensitivity>-0.4</PsychicSensitivity>
-    </statOffsets>
+        <statOffsets>
+          <PsychicSensitivity>-0.4</PsychicSensitivity>
+        </statOffsets>
       </li>
     </stages>
-
   </HediffDef>
-  
-
   <HediffDef ParentName="MAImplantHediffBase">
     <defName>CoProcess</defName>
     <label>co-processor</label>
-	<description>co-processor</description>
+    <description>co-processor</description>
     <spawnThingOnRemoved>CoProcess</spawnThingOnRemoved>
-	<stages>
+    <stages>
       <li>
-    <statOffsets>
-       <GlobalLearningFactor>0.3</GlobalLearningFactor>
-    </statOffsets>
+        <statOffsets>
+          <GlobalLearningFactor>0.3</GlobalLearningFactor>
+        </statOffsets>
       </li>
     </stages>
   </HediffDef>
-  
   <HediffDef ParentName="MAImplantHediffBase">
     <defName>ToxinScrub</defName>
     <label>toxin scrubber</label>
-	<description>toxin scrubber</description>
+    <description>toxin scrubber</description>
     <spawnThingOnRemoved>ToxinScrub</spawnThingOnRemoved>
-	<stages>
+    <stages>
       <li>
-    <statOffsets>
-       <ToxicSensitivity>-0.5</ToxicSensitivity>
-    </statOffsets>
+        <statOffsets>
+          <ToxicSensitivity>-0.5</ToxicSensitivity>
+        </statOffsets>
       </li>
     </stages>
   </HediffDef>
-  
   <HediffDef ParentName="MAImplantHediffBase">
     <defName>GunSlinger</defName>
     <label>gunslinger</label>
-	<description>gunslinger</description>
+    <description>gunslinger</description>
     <spawnThingOnRemoved>GunSlinger</spawnThingOnRemoved>
-	<stages>
+    <stages>
       <li>
-    <statOffsets>
-       <AimingDelayFactor>-0.5</AimingDelayFactor>
-    </statOffsets>
+        <statOffsets>
+          <AimingDelayFactor>-0.5</AimingDelayFactor>
+        </statOffsets>
       </li>
     </stages>
   </HediffDef>
-  
   <HediffDef ParentName="MAImplantHediffBase">
     <defName>ImmuneBoost</defName>
     <label>immune booster</label>
-	<description>immune booster</description>
+    <description>immune booster</description>
     <spawnThingOnRemoved>ImmuneBoost</spawnThingOnRemoved>
-	<stages>
+    <stages>
       <li>
-    <statOffsets>
-       <ImmunityGainSpeed>0.2</ImmunityGainSpeed>
-    </statOffsets>
+        <statOffsets>
+          <ImmunityGainSpeed>0.2</ImmunityGainSpeed>
+        </statOffsets>
       </li>
     </stages>
   </HediffDef>
-  
   <!--HediffDef ParentName="MAImplantHediffBase">
     <defName>BackupHeart</defName>
     <label>back-up heart</label>
@@ -96,7 +87,6 @@
       </li>
     </stages>
   </HediffDef-->
-  
   <!--HediffDef ParentName="MAImplantHediffBase">
     <defName>Lazarite</defName>
     <label>lazarus implant</label>
@@ -113,11 +103,10 @@
       </li>
     </stages>
   </HediffDef-->
-
   <HediffDef ParentName="MAImplantHediffBase">
     <defName>BadgerClaw</defName>
     <label>badger claws</label>
-	<description>badger claws</description>
+    <description>badger claws</description>
     <comps>
       <li Class="HediffCompProperties_VerbGiver">
         <verbs>
@@ -127,12 +116,11 @@
             <meleeDamageBaseAmount>14</meleeDamageBaseAmount>
             <meleeDamageDef>Scratch</meleeDamageDef>
           </li>
-        </verbs>  
+        </verbs>
       </li>
     </comps>
     <spawnThingOnRemoved>BadgerClaw</spawnThingOnRemoved>
     <addedPartProps>
-      
       <solid>false</solid>
       <partEfficiency>0.92</partEfficiency>
     </addedPartProps>
@@ -153,6 +141,4 @@
     </stages>
     <spawnThingOnRemoved>Coprocessor</spawnThingOnRemoved>
   </HediffDef-->
-  
-
 </Defs>

@@ -1,6 +1,5 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
   <ThingDef Name="MAImplantBase" Abstract="True">
     <label>implant</label>
     <thingClass>ThingWithComps</thingClass>
@@ -19,14 +18,13 @@
       <li>BodyPartOrImplant</li>
     </tradeTags>
     <comps>
-      <li Class="CompProperties_Forbiddable"/>
+      <li Class="CompProperties_Forbiddable" />
     </comps>
     <thingCategories>
       <li>BodyPartsArtificial</li>
     </thingCategories>
     <pathCost>10</pathCost>
   </ThingDef>
-  
   <!-- ideas for mechanical implants
   
   Heart filter (also toxins)
@@ -40,7 +38,6 @@
   Mechanite Factory
   
   -->
-  
   <!--ThingDef ParentName="MAImplantBase">
     <defName>Lazarite</defName>
     <label>Lazarus Implant</label>
@@ -56,7 +53,6 @@
       <li>Advanced</li>
     </techHediffsTags>
   </ThingDef-->
-
   <ThingDef ParentName="MAImplantBase">
     <defName>MetalPlate</defName>
     <label>metal plate implant</label>
@@ -67,13 +63,12 @@
     </graphicData>
     <statBases>
       <MarketValue>500</MarketValue>
-	  <Mass>2</Mass>
+      <Mass>2</Mass>
     </statBases>
     <techHediffsTags>
       <li>Simple</li>
     </techHediffsTags>
   </ThingDef>
-  
   <ThingDef ParentName="MAImplantBase">
     <defName>ToxinScrub</defName>
     <label>toxin scrubber implant</label>
@@ -84,15 +79,12 @@
     </graphicData>
     <statBases>
       <MarketValue>800</MarketValue>
-	  <Mass>2</Mass>
+      <Mass>2</Mass>
     </statBases>
     <techHediffsTags>
       <li>Advanced</li>
     </techHediffsTags>
   </ThingDef>
-  
-
-  
   <!--ThingDef ParentName="MAImplantBase">
     <defName>BackupHeart</defName>
     <label>back-up heart implant</label>
@@ -108,7 +100,6 @@
       <li>Advanced</li>
     </techHediffsTags>
   </ThingDef-->
-  
   <!--ThingDef ParentName="MAImplantBase">
     <defName>Temp</defName>
     <label>template</label>
@@ -124,7 +115,6 @@
       <li>Advanced</li>
     </techHediffsTags>
   </ThingDef-->
-  
   <ThingDef ParentName="MAImplantBase">
     <defName>ImmuneBoost</defName>
     <label>Immune System Booster Implant</label>
@@ -135,13 +125,12 @@
     </graphicData>
     <statBases>
       <MarketValue>1200</MarketValue>
-	  <Mass>2</Mass>
+      <Mass>2</Mass>
     </statBases>
     <techHediffsTags>
       <li>Advanced</li>
     </techHediffsTags>
   </ThingDef>
-
   <ThingDef ParentName="MAImplantBase">
     <defName>CoProcess</defName>
     <label>Neural Co-Processor Implant</label>
@@ -152,13 +141,12 @@
     </graphicData>
     <statBases>
       <MarketValue>1250</MarketValue>
-	  <Mass>2</Mass>
+      <Mass>2</Mass>
     </statBases>
     <techHediffsTags>
       <li>Advanced</li>
     </techHediffsTags>
   </ThingDef>
-  
   <ThingDef ParentName="MAImplantBase">
     <defName>GunSlinger</defName>
     <label>Gunslinger Implant</label>
@@ -169,13 +157,12 @@
     </graphicData>
     <statBases>
       <MarketValue>800</MarketValue>
-	  <Mass>2</Mass>
+      <Mass>2</Mass>
     </statBases>
     <techHediffsTags>
       <li>Advanced</li>
     </techHediffsTags>
   </ThingDef>
-  
   <ThingDef ParentName="MAImplantBase">
     <defName>BadgerClaw</defName>
     <label>badger claw implant</label>
@@ -186,15 +173,12 @@
     </graphicData>
     <statBases>
       <MarketValue>500</MarketValue>
-	  <Mass>2</Mass>
+      <Mass>2</Mass>
     </statBases>
     <techHediffsTags>
       <li>Advanced</li>
     </techHediffsTags>
   </ThingDef>
-  
-
-  
   <!--ThingDef ParentName="MAImplantBase">
     <defName>MechaniteFab</defName>
     <label>Mechanite Factory Implant</label>
@@ -210,10 +194,7 @@
       <li>Advanced</li>
     </techHediffsTags>
   </ThingDef-->
-  
-  
   <!-- Goo cans -->
-  
   <ThingDef ParentName="MAImplantBase">
     <defName>MechanitesPhysicalI</defName>
     <label>Mk I Mechanites (Physical)</label>
@@ -224,14 +205,12 @@
     </graphicData>
     <statBases>
       <MarketValue>750</MarketValue>
-	  <Mass>2</Mass>
+      <Mass>2</Mass>
     </statBases>
     <techHediffsTags>
       <li>Advanced</li>
     </techHediffsTags>
   </ThingDef>
-
-  
   <ThingDef ParentName="MAImplantBase">
     <defName>MechanitesMindI</defName>
     <label>Mk I Mechanites (Cerebral)</label>
@@ -242,13 +221,12 @@
     </graphicData>
     <statBases>
       <MarketValue>750</MarketValue>
-	  <Mass>2</Mass>
+      <Mass>2</Mass>
     </statBases>
     <techHediffsTags>
       <li>Advanced</li>
     </techHediffsTags>
   </ThingDef>
-
   <ThingDef ParentName="MAImplantBase">
     <defName>MechanitesPhysicalII</defName>
     <label>Mk II Mechanites (Physical)</label>
@@ -259,13 +237,12 @@
     </graphicData>
     <statBases>
       <MarketValue>950</MarketValue>
-	  <Mass>2</Mass>
+      <Mass>2</Mass>
     </statBases>
     <techHediffsTags>
       <li>Advanced</li>
     </techHediffsTags>
   </ThingDef>
-
   <ThingDef ParentName="MAImplantBase">
     <defName>MechanitesMindII</defName>
     <label>Mk II Mechanites (Cerebral)</label>
@@ -276,13 +253,12 @@
     </graphicData>
     <statBases>
       <MarketValue>950</MarketValue>
-	  <Mass>2</Mass>
+      <Mass>2</Mass>
     </statBases>
     <techHediffsTags>
       <li>Advanced</li>
     </techHediffsTags>
   </ThingDef>
-  
   <ThingDef ParentName="MAImplantBase">
     <defName>MechanitesPhysicalIII</defName>
     <label>Mk III Mechanites (Physical)</label>
@@ -293,13 +269,12 @@
     </graphicData>
     <statBases>
       <MarketValue>1550</MarketValue>
-	  <Mass>2</Mass>
+      <Mass>2</Mass>
     </statBases>
     <techHediffsTags>
       <li>Advanced</li>
     </techHediffsTags>
   </ThingDef>
-
   <ThingDef ParentName="MAImplantBase">
     <defName>MechanitesMindIII</defName>
     <label>Mk III Mechanites (Cerebral)</label>
@@ -310,13 +285,12 @@
     </graphicData>
     <statBases>
       <MarketValue>1550</MarketValue>
-	  <Mass>2</Mass>
+      <Mass>2</Mass>
     </statBases>
     <techHediffsTags>
       <li>Advanced</li>
     </techHediffsTags>
   </ThingDef>
- 
   <ThingDef ParentName="MAImplantBase">
     <defName>MechanitesPhysicalIV</defName>
     <label>Mk IV Mechanites (Physical)</label>
@@ -327,13 +301,12 @@
     </graphicData>
     <statBases>
       <MarketValue>1250</MarketValue>
-	  <Mass>2</Mass>
+      <Mass>2</Mass>
     </statBases>
     <techHediffsTags>
       <li>Advanced</li>
     </techHediffsTags>
   </ThingDef>
-
   <ThingDef ParentName="MAImplantBase">
     <defName>MechanitesMindIV</defName>
     <label>Mk IV Mechanites (Cerebral)</label>
@@ -344,7 +317,7 @@
     </graphicData>
     <statBases>
       <MarketValue>1250</MarketValue>
-	  <Mass>2</Mass>
+      <Mass>2</Mass>
     </statBases>
     <techHediffsTags>
       <li>Advanced</li>

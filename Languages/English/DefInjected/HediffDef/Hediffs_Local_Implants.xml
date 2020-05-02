@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Implants -->
+
+  <MetalPlate.label>metal plate</MetalPlate.label>
+  <CoProcess.label>co-processor</CoProcess.label>
+  <ToxinScrub.label>toxin scrubber</ToxinScrub.label>
+  <GunSlinger.label>gunslinger</GunSlinger.label>
+  <ImmuneBoost.label>immune booster</ImmuneBoost.label>
+
+
+  <!-- HediffDef ParentName="MAImplantHediffBase">
+    <defName>Lazarite</defName>
+    <label>lazarus implant</label>
+    <spawnThingOnRemoved>Lazarite</spawnThingOnRemoved>
+	<stages>
+      <li>
+          <capMods>
+            <li>
+              <capacity>Consciousness</capacity>
+              <offset>0.2</offset>
+            </li>
+          </capMods>
+      </li>
+    </stages>
+  </HediffDef -->
+
+  <BadgerClaw.label>badger claws</BadgerClaw.label>
+
+
+</LanguageData>

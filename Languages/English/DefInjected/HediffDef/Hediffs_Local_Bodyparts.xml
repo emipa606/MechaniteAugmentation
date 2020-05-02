@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Added body parts -->
+
+  <CrudeProsthethicEye.label>light detecting eye prosthethic</CrudeProsthethicEye.label>
+  <SimpleProsthethicEye.label>monochrome eye prosthethic</SimpleProsthethicEye.label>
+  <ColorProsthethicEye.label>trichrome eye prosthethic</ColorProsthethicEye.label>
+  <HDProsthethicEye.label>high-definition trichrome eye prosthethic</HDProsthethicEye.label>
+  <SharpShooter.label>sharpshooter</SharpShooter.label>
+  <HydraulicArm.label>hydraulic arm</HydraulicArm.label>
+  <HydraulicLeg.label>hydraulic leg</HydraulicLeg.label>
+  <HydraulicSpine.label>hydraulic spine</HydraulicSpine.label>
+
+
+</LanguageData>
