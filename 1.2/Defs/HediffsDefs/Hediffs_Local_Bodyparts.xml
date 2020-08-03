@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Added body parts -->
+  <HediffDef Name="MAAddedBodyPartBase" Abstract="True">
+    <hediffClass>Hediff_AddedPart</hediffClass>
+    <defaultLabelColor>(0.5, 0.5, 0.9)</defaultLabelColor>
+    <isBad>false</isBad>
+  </HediffDef>
+  <HediffDef ParentName="MAAddedBodyPartBase">
+    <defName>CrudeProsthethicEye</defName>
+    <label>light detecting eye prosthethic</label>
+    <description>light detecting eye prosthethic</description>
+    <spawnThingOnRemoved>CrudeProsthethicEye</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>0.2</partEfficiency>
+    </addedPartProps>
+  </HediffDef>
+  <HediffDef ParentName="MAAddedBodyPartBase">
+    <defName>SimpleProsthethicEye</defName>
+    <label>monochrome eye prosthethic</label>
+    <description>monochrome eye prosthethic</description>
+    <spawnThingOnRemoved>SimpleProsthethicEye</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>0.5</partEfficiency>
+    </addedPartProps>
+  </HediffDef>
+  <HediffDef ParentName="MAAddedBodyPartBase">
+    <defName>ColorProsthethicEye</defName>
+    <label>trichrome eye prosthethic</label>
+    <description>trichrome eye prosthethic</description>
+    <spawnThingOnRemoved>ColorProsthethicEye</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>0.8</partEfficiency>
+    </addedPartProps>
+  </HediffDef>
+  <HediffDef ParentName="MAAddedBodyPartBase">
+    <defName>HDProsthethicEye</defName>
+    <label>high-definition trichrome eye prosthethic</label>
+    <description>high-definition trichrome eye prosthethic</description>
+    <spawnThingOnRemoved>HDProsthethicEye</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>1.0</partEfficiency>
+    </addedPartProps>
+  </HediffDef>
+  <HediffDef ParentName="MAAddedBodyPartBase">
+    <defName>SharpShooter</defName>
+    <label>sharpshooter</label>
+    <description>sharpshooter</description>
+    <spawnThingOnRemoved>SharpShooter</spawnThingOnRemoved>
+    <stages>
+      <li>
+        <statOffsets>
+          <ShootingAccuracyPawn>0.4</ShootingAccuracyPawn>
+        </statOffsets>
+      </li>
+    </stages>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>1.0</partEfficiency>
+    </addedPartProps>
+  </HediffDef>
+  <HediffDef ParentName="MAAddedBodyPartBase">
+    <defName>HydraulicArm</defName>
+    <label>hydraulic arm</label>
+    <description>hydraulic arm</description>
+    <comps>
+      <li Class="HediffCompProperties_VerbGiver">
+        <verbs>
+          <li>
+            <verbClass>Verb_MeleeAttack</verbClass>
+            <defaultCooldownTime>1.2</defaultCooldownTime>
+            <meleeDamageBaseAmount>12</meleeDamageBaseAmount>
+            <meleeDamageDef>Blunt</meleeDamageDef>
+          </li>
+        </verbs>
+      </li>
+    </comps>
+    <spawnThingOnRemoved>HydraulicArm</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>0.92</partEfficiency>
+    </addedPartProps>
+  </HediffDef>
+  <HediffDef ParentName="MAAddedBodyPartBase">
+    <defName>HydraulicLeg</defName>
+    <label>hydraulic leg</label>
+    <description>hydraulic leg</description>
+    <spawnThingOnRemoved>HydraulicLeg</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>0.92</partEfficiency>
+    </addedPartProps>
+  </HediffDef>
+  <HediffDef ParentName="MAAddedBodyPartBase">
+    <defName>HydraulicSpine</defName>
+    <label>hydraulic spine</label>
+    <description>hydraulic spine</description>
+    <spawnThingOnRemoved>HydraulicSpine</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>0.92</partEfficiency>
+    </addedPartProps>
+  </HediffDef>
+</Defs>
