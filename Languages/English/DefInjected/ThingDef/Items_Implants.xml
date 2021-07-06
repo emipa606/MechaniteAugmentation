@@ -1,6 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <!-- ThingDef ParentName="MAImplantBase">
     <defName>Lazarite</defName>
     <label>Lazarus Implant</label>
@@ -16,14 +15,10 @@
       <li>Advanced</li>
     </techHediffsTags>
   </ThingDef -->
-
   <MetalPlate.label>metal plate implant</MetalPlate.label>
   <MetalPlate.description>A simple metal plate commonly used for crude bone repair surgery. Undocumented side-effects include resistance towards psionic manipulation.</MetalPlate.description>
-
   <ToxinScrub.label>toxin scrubber implant</ToxinScrub.label>
   <ToxinScrub.description>A high tech device that attaches to the lungs. This device scrubs toxins out of contaminated atmospheres, granting partial protection against toxins to their user.</ToxinScrub.description>
-
-
   <!-- ThingDef ParentName="MAImplantBase">
     <defName>Temp</defName>
     <label>template</label>
@@ -39,45 +34,29 @@
       <li>Advanced</li>
     </techHediffsTags>
   </ThingDef -->
-
   <ImmuneBoost.label>Immune System Booster Implant</ImmuneBoost.label>
   <ImmuneBoost.description>A mechanite-factory specializing in assisting the body's natural immune response to fight off infections.</ImmuneBoost.description>
-
   <CoProcess.label>Neural Co-Processor Implant</CoProcess.label>
   <CoProcess.description>A brain implant that enhances ones ability to learn. Popular among glitterworld students.</CoProcess.description>
-
   <GunSlinger.label>Gunslinger Implant</GunSlinger.label>
   <GunSlinger.description>A neural-muscular enhancing implant that improves skills with ranged weapons.</GunSlinger.description>
-
   <BadgerClaw.label>badger claw implant</BadgerClaw.label>
   <BadgerClaw.description>A retractable melee weapon that is surgically grafted to your hands. While retaining their functions.</BadgerClaw.description>
-
-
   <!-- Goo cans -->
-
   <MechanitesPhysicalI.label>Mk I Mechanites (Physical)</MechanitesPhysicalI.label>
   <MechanitesPhysicalI.description>A one-use nanotech injector device containing mechanites. Banned even in the more advanced sectors of the galactic commonwealth. This strain augments physical capability.</MechanitesPhysicalI.description>
-
   <MechanitesMindI.label>Mk I Mechanites (Cerebral)</MechanitesMindI.label>
   <MechanitesMindI.description>A one-use nanotech injector device containing mechanites. Banned even in the more advanced sectors of the galactic commonwealth. This strain augments cerebral capacity.</MechanitesMindI.description>
-
   <MechanitesPhysicalII.label>Mk II Mechanites (Physical)</MechanitesPhysicalII.label>
   <MechanitesPhysicalII.description>A one-use nanotech injector device containing mechanites. Banned even in the more advanced sectors of the galactic commonwealth. This strain augments physical capability.</MechanitesPhysicalII.description>
-
   <MechanitesMindII.label>Mk II Mechanites (Cerebral)</MechanitesMindII.label>
   <MechanitesMindII.description>A one-use nanotech injector device containing mechanites. Banned even in the more advanced sectors of the galactic commonwealth. This strain augments cerebral capacity.</MechanitesMindII.description>
-
   <MechanitesPhysicalIII.label>Mk III Mechanites (Physical)</MechanitesPhysicalIII.label>
   <MechanitesPhysicalIII.description>A one-use nanotech injector device containing mechanites. Banned even in the more advanced sectors of the galactic commonwealth. This strain augments physical capability.</MechanitesPhysicalIII.description>
-
   <MechanitesMindIII.label>Mk III Mechanites (Cerebral)</MechanitesMindIII.label>
   <MechanitesMindIII.description>A one-use nanotech injector device containing mechanites. Banned even in the more advanced sectors of the galactic commonwealth. This strain augments cerebral capacity.</MechanitesMindIII.description>
-
   <MechanitesPhysicalIV.label>Mk IV Mechanites (Physical)</MechanitesPhysicalIV.label>
   <MechanitesPhysicalIV.description>A bootleg, one-use nanotech injector device containing mechanites, 'improved' in your local black market.  Results may vary. Banned even in the more advanced sectors of the galactic commonwealth. This strain augments physical capability, and is highly volatile.  Don't expect these to function for long.</MechanitesPhysicalIV.description>
-
   <MechanitesMindIV.label>Mk IV Mechanites (Cerebral)</MechanitesMindIV.label>
   <MechanitesMindIV.description>A bootleg, one-use nanotech injector device containing mechanites, 'improved' in your local black market.  Results may vary. Banned even in the more advanced sectors of the galactic commonwealth. This strain augments cerebral capacity, and is highly volatile.  Don't expect these to function for long.</MechanitesMindIV.description>
-
-
 </LanguageData>

@@ -1,34 +1,21 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <!-- artificial - simple mechanical prosthetics -->
-
   <HydraulicSpine.label>hydraulic spine</HydraulicSpine.label>
   <HydraulicSpine.description>Simple piston powered prosthesis made to reinforce a damaged spine. Not very comfortable but quite efficient.</HydraulicSpine.description>
-
   <HydraulicLeg.label>hydraulic leg</HydraulicLeg.label>
   <HydraulicLeg.description>Simple piston powered prosthesis made to replace a missing leg. Not very comfortable but quite efficient.</HydraulicLeg.description>
-
   <HydraulicArm.label>hydraulic arm</HydraulicArm.label>
   <HydraulicArm.description>Simple but durable arm piston powered prosthesis.</HydraulicArm.description>
-
-
   <!-- simple artificial eyeballs -->
-
   <CrudeProsthethicEye.label>light-sensitive eye prosthethic</CrudeProsthethicEye.label>
   <CrudeProsthethicEye.description>A primitive electronic eye prosthethic. Only detects shifts in light intensity.</CrudeProsthethicEye.description>
-
   <SimpleProsthethicEye.label>monochrome eye prosthethic</SimpleProsthethicEye.label>
   <SimpleProsthethicEye.description>A crude electronic eye prosthethic. Only displays images in monochrome.</SimpleProsthethicEye.description>
-
   <ColorProsthethicEye.label>trichrome eye prosthethic</ColorProsthethicEye.label>
   <ColorProsthethicEye.description>A simple electronic eye prosthethic. Creates images in the three primary color spectra.</ColorProsthethicEye.description>
-
   <HDProsthethicEye.label>high-definition trichromatic eye prosthethic</HDProsthethicEye.label>
   <HDProsthethicEye.description>A advanced electronic eye prosthethic. Creates high-definition full color images.</HDProsthethicEye.description>
-
   <SharpShooter.label>Sharpshooter Implant</SharpShooter.label>
   <SharpShooter.description>A specialized bionic eye replacement that improves skills with ranged weapons by adding reticule overlays and zoom capability.</SharpShooter.description>
-
-
 </LanguageData>

@@ -1,15 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <!-- Implants -->
-
   <MetalPlate.label>metal plate</MetalPlate.label>
   <CoProcess.label>co-processor</CoProcess.label>
   <ToxinScrub.label>toxin scrubber</ToxinScrub.label>
   <GunSlinger.label>gunslinger</GunSlinger.label>
   <ImmuneBoost.label>immune booster</ImmuneBoost.label>
-
-
   <!-- HediffDef ParentName="MAImplantHediffBase">
     <defName>Lazarite</defName>
     <label>lazarus implant</label>
@@ -25,8 +21,5 @@
       </li>
     </stages>
   </HediffDef -->
-
   <BadgerClaw.label>badger claws</BadgerClaw.label>
-
-
 </LanguageData>

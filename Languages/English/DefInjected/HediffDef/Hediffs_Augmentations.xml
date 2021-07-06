@@ -1,61 +1,43 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <!-- Mk-I Mechanites: Base grade -->
-
   <DermalMechanitesI.label>Mk-I dermis mechanites</DermalMechanitesI.label>
   <DermalMechanitesI.stages.0.label>functioning</DermalMechanitesI.stages.0.label>
   <DermalMechanitesI.stages.1.label>degrading</DermalMechanitesI.stages.1.label>
   <DermalMechanitesI.stages.2.label>malfunctioning</DermalMechanitesI.stages.2.label>
-
   <FibrousMechanitesI.label>Mk-I fibrous mechanites</FibrousMechanitesI.label>
   <FibrousMechanitesI.stages.0.label>functioning</FibrousMechanitesI.stages.0.label>
   <FibrousMechanitesI.stages.1.label>degrading</FibrousMechanitesI.stages.1.label>
   <FibrousMechanitesI.stages.2.label>malfunctioning</FibrousMechanitesI.stages.2.label>
-
   <SensoryMechanitesI.label>Mk-I sensory mechanites</SensoryMechanitesI.label>
   <SensoryMechanitesI.stages.0.label>functioning</SensoryMechanitesI.stages.0.label>
   <SensoryMechanitesI.stages.1.label>degrading</SensoryMechanitesI.stages.1.label>
   <SensoryMechanitesI.stages.2.label>malfunctioning</SensoryMechanitesI.stages.2.label>
-
-
   <!-- Mark II augmentation Mechanites -->
-
   <FibrousMechanitesII.label>Mk-II fibrous mechanites</FibrousMechanitesII.label>
   <FibrousMechanitesII.stages.0.label>functioning</FibrousMechanitesII.stages.0.label>
   <FibrousMechanitesII.stages.1.label>degrading</FibrousMechanitesII.stages.1.label>
   <FibrousMechanitesII.stages.2.label>malfunctioning</FibrousMechanitesII.stages.2.label>
-
   <SensoryMechanitesII.label>Mk-II sensory mechanites</SensoryMechanitesII.label>
   <SensoryMechanitesII.stages.0.label>functioning</SensoryMechanitesII.stages.0.label>
   <SensoryMechanitesII.stages.1.label>degrading</SensoryMechanitesII.stages.1.label>
   <SensoryMechanitesII.stages.2.label>malfunctioning</SensoryMechanitesII.stages.2.label>
-
-
   <!-- Mark III augmentation Mechanites -->
-
   <FibrousMechanitesIII.label>Mk-III fibrous mechanites</FibrousMechanitesIII.label>
   <FibrousMechanitesIII.stages.0.label>functioning</FibrousMechanitesIII.stages.0.label>
   <FibrousMechanitesIII.stages.1.label>degrading</FibrousMechanitesIII.stages.1.label>
   <FibrousMechanitesIII.stages.2.label>malfunctioning</FibrousMechanitesIII.stages.2.label>
-
   <SensoryMechanitesIII.label>Mk-III sensory mechanites</SensoryMechanitesIII.label>
   <SensoryMechanitesIII.stages.0.label>functioning</SensoryMechanitesIII.stages.0.label>
   <SensoryMechanitesIII.stages.1.label>degrading</SensoryMechanitesIII.stages.1.label>
   <SensoryMechanitesIII.stages.2.label>malfunctioning</SensoryMechanitesIII.stages.2.label>
-
-
   <!-- Mark IV augmentation Mechanites (Not legal!) -->
-
   <FibrousMechanitesIV.label>Pirated fibrous mechanites</FibrousMechanitesIV.label>
   <FibrousMechanitesIV.stages.0.label>functioning?</FibrousMechanitesIV.stages.0.label>
   <FibrousMechanitesIV.stages.1.label>#error#!</FibrousMechanitesIV.stages.1.label>
   <FibrousMechanitesIV.stages.2.label>#CRITICAL#ERROR!#</FibrousMechanitesIV.stages.2.label>
-
   <SensoryMechanitesIV.label>Pirated sensory mechanites</SensoryMechanitesIV.label>
   <SensoryMechanitesIV.stages.0.label>functioning?</SensoryMechanitesIV.stages.0.label>
   <SensoryMechanitesIV.stages.1.label>#error#!</SensoryMechanitesIV.stages.1.label>
   <SensoryMechanitesIV.stages.2.label>#CRITICAL#ERROR!#</SensoryMechanitesIV.stages.2.label>
-
-
 </LanguageData>
