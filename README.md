@@ -1,23 +1,14 @@
 # MechaniteAugmentation
 
-![Image](https://i.imgur.com/WAEzk68.png)
+![Image](https://i.imgur.com/buuPQel.png)
 
 Update of Kyos mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=768597335
 
-![Image](https://i.imgur.com/7Gzt3Rg.png)
+![Image](https://i.imgur.com/pufA0kM.png)
 
-
-[table]
-	[tr]
-		[td]https://invite.gg/Mlie]![Image](https://i.imgur.com/zdzzBrc.png)
-[/td]
-		[td]https://github.com/emipa606/MechaniteAugmentation]![Image](https://i.imgur.com/kTkpTOE.png)
-[/td]
-	[/tr]
-[/table]
 	
-![Image](https://i.imgur.com/NOW7jU1.png)
+![Image](https://i.imgur.com/Z4GOv8H.png)
 
 
 Mechanical and Mechanite augmentations, for both subtle and invasive augmentation needs.
@@ -35,10 +26,10 @@ Mechanical and Mechanite augmentations, for both subtle and invasive augmentatio
 * extendable/retractable Badger Claw hand implants
 * Hydraulic arms, legs and spine cybernetics.
 
-Now rebalanced by Wendigo and Updated by Love. (A person I am told, not the emotional concept of, though most RimMods are labors of love, Love did in fact help update this when I was still drowning in A16&apos;s new features) and debugged by myself because accidents happen. Enjoy your encroachment towards transhumanism.
+Now rebalanced by Wendigo and Updated by Love. (A person I am told, not the emotional concept of, though most RimMods are labors of love, Love did in fact help update this when I was still drowning in A16's new features) and debugged by myself because accidents happen. Enjoy your encroachment towards transhumanism.
 
 
-![Image](https://i.imgur.com/Rs6T6cr.png)
+![Image](https://i.imgur.com/PwoNOj4.png)
 
 
 
@@ -48,6 +39,7 @@ Now rebalanced by Wendigo and Updated by Love. (A person I am told, not the emot
 -  For best support, please use the Discord-channel for error-reporting.
 -  Do not report errors by making a discussion-thread, I get no notification of that.
 -  If you have the solution for a problem, please post it to the GitHub repository.
+
 
 
 
