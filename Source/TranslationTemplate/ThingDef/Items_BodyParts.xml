@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: trichrome eye prosthethic -->
+  <ColorProsthethicEye.label>trichrome eye prosthethic</ColorProsthethicEye.label>
+  <!-- EN: A simple electronic eye prosthethic. Creates images in the three primary color spectra. -->
+  <ColorProsthethicEye.description>A simple electronic eye prosthethic. Creates images in the three primary color spectra.</ColorProsthethicEye.description>
+  <!-- EN: light-sensitive eye prosthethic -->
+  <CrudeProsthethicEye.label>light-sensitive eye prosthethic</CrudeProsthethicEye.label>
+  <!-- EN: A primitive electronic eye prosthethic. Only detects shifts in light intensity. -->
+  <CrudeProsthethicEye.description>A primitive electronic eye prosthethic. Only detects shifts in light intensity.</CrudeProsthethicEye.description>
+  <!-- EN: high-definition trichromatic eye prosthethic -->
+  <HDProsthethicEye.label>high-definition trichromatic eye prosthethic</HDProsthethicEye.label>
+  <!-- EN: A advanced electronic eye prosthethic. Creates high-definition full color images. -->
+  <HDProsthethicEye.description>A advanced electronic eye prosthethic. Creates high-definition full color images.</HDProsthethicEye.description>
+  <!-- EN: hydraulic arm -->
+  <HydraulicArm.label>hydraulic arm</HydraulicArm.label>
+  <!-- EN: Simple but durable arm piston powered prosthesis. -->
+  <HydraulicArm.description>Simple but durable arm piston powered prosthesis.</HydraulicArm.description>
+  <!-- EN: hydraulic leg -->
+  <HydraulicLeg.label>hydraulic leg</HydraulicLeg.label>
+  <!-- EN: Simple piston powered prosthesis made to replace a missing leg. Not very comfortable but quite efficient. -->
+  <HydraulicLeg.description>Simple piston powered prosthesis made to replace a missing leg. Not very comfortable but quite efficient.</HydraulicLeg.description>
+  <!-- EN: hydraulic spine -->
+  <HydraulicSpine.label>hydraulic spine</HydraulicSpine.label>
+  <!-- EN: Simple piston powered prosthesis made to reinforce a damaged spine. Not very comfortable but quite efficient. -->
+  <HydraulicSpine.description>Simple piston powered prosthesis made to reinforce a damaged spine. Not very comfortable but quite efficient.</HydraulicSpine.description>
+  <!-- EN: Sharpshooter Implant -->
+  <SharpShooter.label>Sharpshooter Implant</SharpShooter.label>
+  <!-- EN: A specialized bionic eye replacement that improves skills with ranged weapons by adding reticule overlays and zoom capability. -->
+  <SharpShooter.description>A specialized bionic eye replacement that improves skills with ranged weapons by adding reticule overlays and zoom capability.</SharpShooter.description>
+  <!-- EN: monochrome eye prosthethic -->
+  <SimpleProsthethicEye.label>monochrome eye prosthethic</SimpleProsthethicEye.label>
+  <!-- EN: A crude electronic eye prosthethic. Only displays images in monochrome. -->
+  <SimpleProsthethicEye.description>A crude electronic eye prosthethic. Only displays images in monochrome.</SimpleProsthethicEye.description>
+</LanguageData>

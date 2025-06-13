@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: make trichrome eye prosthethic -->
+  <Make_ColorProsthethicEye.label>make trichrome eye prosthethic</Make_ColorProsthethicEye.label>
+  <!-- EN: Make a trichrome eye prosthethic. -->
+  <Make_ColorProsthethicEye.description>Make a trichrome eye prosthethic.</Make_ColorProsthethicEye.description>
+  <!-- EN: Making trichrome eye prosthethic. -->
+  <Make_ColorProsthethicEye.jobString>Making trichrome eye prosthethic.</Make_ColorProsthethicEye.jobString>
+  <!-- EN: make light-sensitive eye prosthethic -->
+  <Make_CrudeProsthethicEye.label>make light-sensitive eye prosthethic</Make_CrudeProsthethicEye.label>
+  <!-- EN: Make a light-sensitive eye prosthethic. -->
+  <Make_CrudeProsthethicEye.description>Make a light-sensitive eye prosthethic.</Make_CrudeProsthethicEye.description>
+  <!-- EN: Making light-sensitive eye prosthethic. -->
+  <Make_CrudeProsthethicEye.jobString>Making light-sensitive eye prosthethic.</Make_CrudeProsthethicEye.jobString>
+  <!-- EN: make high-definition trichromatic eye prosthethic -->
+  <Make_HDProsthethicEye.label>make high-definition trichromatic eye prosthethic</Make_HDProsthethicEye.label>
+  <!-- EN: Make a high-definition trichromatic eye prosthethic. -->
+  <Make_HDProsthethicEye.description>Make a high-definition trichromatic eye prosthethic.</Make_HDProsthethicEye.description>
+  <!-- EN: Making high-definition trichromatic eye prosthethic. -->
+  <Make_HDProsthethicEye.jobString>Making high-definition trichromatic eye prosthethic.</Make_HDProsthethicEye.jobString>
+  <!-- EN: make hydraulic arm -->
+  <Make_HydraulicArm.label>make hydraulic arm</Make_HydraulicArm.label>
+  <!-- EN: Make a hydraulic arm. -->
+  <Make_HydraulicArm.description>Make a hydraulic arm.</Make_HydraulicArm.description>
+  <!-- EN: Making hydraulic arm. -->
+  <Make_HydraulicArm.jobString>Making hydraulic arm.</Make_HydraulicArm.jobString>
+  <!-- EN: make hydraulic leg -->
+  <Make_HydraulicLeg.label>make hydraulic leg</Make_HydraulicLeg.label>
+  <!-- EN: Make a hydraulic leg. -->
+  <Make_HydraulicLeg.description>Make a hydraulic leg.</Make_HydraulicLeg.description>
+  <!-- EN: Making hydraulic leg. -->
+  <Make_HydraulicLeg.jobString>Making hydraulic leg.</Make_HydraulicLeg.jobString>
+  <!-- EN: make hydraulic spine -->
+  <Make_HydraulicSpine.label>make hydraulic spine</Make_HydraulicSpine.label>
+  <!-- EN: Make a hydraulic spine. -->
+  <Make_HydraulicSpine.description>Make a hydraulic spine.</Make_HydraulicSpine.description>
+  <!-- EN: Making hydraulic spine. -->
+  <Make_HydraulicSpine.jobString>Making hydraulic spine.</Make_HydraulicSpine.jobString>
+  <!-- EN: make monochrome eye prosthethic -->
+  <Make_SimpleProsthethicEye.label>make monochrome eye prosthethic</Make_SimpleProsthethicEye.label>
+  <!-- EN: Make a monochrome eye prosthethic. -->
+  <Make_SimpleProsthethicEye.description>Make a monochrome eye prosthethic.</Make_SimpleProsthethicEye.description>
+  <!-- EN: Making monochrome eye prosthethic. -->
+  <Make_SimpleProsthethicEye.jobString>Making monochrome eye prosthethic.</Make_SimpleProsthethicEye.jobString>
+</LanguageData>

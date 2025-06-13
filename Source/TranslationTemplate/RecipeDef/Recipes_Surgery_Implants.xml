@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: inject Mk-I sensory mechanites -->
+  <InjectMechanitesCMk1.label>inject Mk-I sensory mechanites</InjectMechanitesCMk1.label>
+  <!-- EN: Injects mechanites. -->
+  <InjectMechanitesCMk1.description>Injects mechanites.</InjectMechanitesCMk1.description>
+  <!-- EN: Injecting mechanites. -->
+  <InjectMechanitesCMk1.jobString>Injecting mechanites.</InjectMechanitesCMk1.jobString>
+  <!-- EN: inject Mk-II sensory mechanites -->
+  <InjectMechanitesCMk2.label>inject Mk-II sensory mechanites</InjectMechanitesCMk2.label>
+  <!-- EN: Injects mechanites. -->
+  <InjectMechanitesCMk2.description>Injects mechanites.</InjectMechanitesCMk2.description>
+  <!-- EN: Injecting mechanites. -->
+  <InjectMechanitesCMk2.jobString>Injecting mechanites.</InjectMechanitesCMk2.jobString>
+  <!-- EN: inject Mk-III sensory mechanites -->
+  <InjectMechanitesCMk3.label>inject Mk-III sensory mechanites</InjectMechanitesCMk3.label>
+  <!-- EN: Injects mechanites. -->
+  <InjectMechanitesCMk3.description>Injects mechanites.</InjectMechanitesCMk3.description>
+  <!-- EN: Injecting mechanites. -->
+  <InjectMechanitesCMk3.jobString>Injecting mechanites.</InjectMechanitesCMk3.jobString>
+  <!-- EN: inject pirated sensory mechanites -->
+  <InjectMechanitesCMk4.label>inject pirated sensory mechanites</InjectMechanitesCMk4.label>
+  <!-- EN: Injects mechanites. -->
+  <InjectMechanitesCMk4.description>Injects mechanites.</InjectMechanitesCMk4.description>
+  <!-- EN: Injecting mechanites. -->
+  <InjectMechanitesCMk4.jobString>Injecting mechanites.</InjectMechanitesCMk4.jobString>
+  <!-- EN: inject Mk-I fibrous mechanites -->
+  <InjectMechanitesFMk1.label>inject Mk-I fibrous mechanites</InjectMechanitesFMk1.label>
+  <!-- EN: Injects mechanites. -->
+  <InjectMechanitesFMk1.description>Injects mechanites.</InjectMechanitesFMk1.description>
+  <!-- EN: Injecting mechanites. -->
+  <InjectMechanitesFMk1.jobString>Injecting mechanites.</InjectMechanitesFMk1.jobString>
+  <!-- EN: inject Mk-II fibrous mechanites -->
+  <InjectMechanitesFMk2.label>inject Mk-II fibrous mechanites</InjectMechanitesFMk2.label>
+  <!-- EN: Injects mechanites. -->
+  <InjectMechanitesFMk2.description>Injects mechanites.</InjectMechanitesFMk2.description>
+  <!-- EN: Injecting mechanites. -->
+  <InjectMechanitesFMk2.jobString>Injecting mechanites.</InjectMechanitesFMk2.jobString>
+  <!-- EN: inject Mk-III fibrous mechanites -->
+  <InjectMechanitesFMk3.label>inject Mk-III fibrous mechanites</InjectMechanitesFMk3.label>
+  <!-- EN: Injects mechanites. -->
+  <InjectMechanitesFMk3.description>Injects mechanites.</InjectMechanitesFMk3.description>
+  <!-- EN: Injecting mechanites. -->
+  <InjectMechanitesFMk3.jobString>Injecting mechanites.</InjectMechanitesFMk3.jobString>
+  <!-- EN: inject pirated fibrous mechanites -->
+  <InjectMechanitesFMk4.label>inject pirated fibrous mechanites</InjectMechanitesFMk4.label>
+  <!-- EN: Injects mechanites. -->
+  <InjectMechanitesFMk4.description>Injects mechanites.</InjectMechanitesFMk4.description>
+  <!-- EN: Injecting mechanites. -->
+  <InjectMechanitesFMk4.jobString>Injecting mechanites.</InjectMechanitesFMk4.jobString>
+  <!-- EN: install light sensitive prosthethic eye -->
+  <InstallEyeProsthethic1.label>install light sensitive prosthethic eye</InstallEyeProsthethic1.label>
+  <!-- EN: Installs prosthethic. -->
+  <InstallEyeProsthethic1.description>Installs prosthethic.</InstallEyeProsthethic1.description>
+  <!-- EN: Operating on patient. -->
+  <InstallEyeProsthethic1.jobString>Operating on patient.</InstallEyeProsthethic1.jobString>
+  <!-- EN: install monochrome prosthetic eye -->
+  <InstallEyeProsthethic2.label>install monochrome prosthetic eye</InstallEyeProsthethic2.label>
+  <!-- EN: Installs prosthethic. -->
+  <InstallEyeProsthethic2.description>Installs prosthethic.</InstallEyeProsthethic2.description>
+  <!-- EN: Operating on patient. -->
+  <InstallEyeProsthethic2.jobString>Operating on patient.</InstallEyeProsthethic2.jobString>
+  <!-- EN: install trichromatic prosthethic eye -->
+  <InstallEyeProsthethic3.label>install trichromatic prosthethic eye</InstallEyeProsthethic3.label>
+  <!-- EN: Installs prosthethic. -->
+  <InstallEyeProsthethic3.description>Installs prosthethic.</InstallEyeProsthethic3.description>
+  <!-- EN: Operating on patient. -->
+  <InstallEyeProsthethic3.jobString>Operating on patient.</InstallEyeProsthethic3.jobString>
+  <!-- EN: install HD prosthethic eye -->
+  <InstallEyeProsthethic4.label>install HD prosthethic eye</InstallEyeProsthethic4.label>
+  <!-- EN: Installs prosthethic. -->
+  <InstallEyeProsthethic4.description>Installs prosthethic.</InstallEyeProsthethic4.description>
+  <!-- EN: Operating on patient. -->
+  <InstallEyeProsthethic4.jobString>Operating on patient.</InstallEyeProsthethic4.jobString>
+  <!-- EN: install sharpshooter eye -->
+  <InstallEyeProsthethic5.label>install sharpshooter eye</InstallEyeProsthethic5.label>
+  <!-- EN: Installs prosthethic. -->
+  <InstallEyeProsthethic5.description>Installs prosthethic.</InstallEyeProsthethic5.description>
+  <!-- EN: Operating on patient. -->
+  <InstallEyeProsthethic5.jobString>Operating on patient.</InstallEyeProsthethic5.jobString>
+  <!-- EN: install metal plate -->
+  <InstallImplant1.label>install metal plate</InstallImplant1.label>
+  <!-- EN: Installs implant. -->
+  <InstallImplant1.description>Installs implant.</InstallImplant1.description>
+  <!-- EN: Operating on patient. -->
+  <InstallImplant1.jobString>Operating on patient.</InstallImplant1.jobString>
+  <!-- EN: install toxin scrubber implant -->
+  <InstallImplant3.label>install toxin scrubber implant</InstallImplant3.label>
+  <!-- EN: Installs implant. -->
+  <InstallImplant3.description>Installs implant.</InstallImplant3.description>
+  <!-- EN: Operating on patient. -->
+  <InstallImplant3.jobString>Operating on patient.</InstallImplant3.jobString>
+  <!-- EN: install immune booster implant -->
+  <InstallImplant5.label>install immune booster implant</InstallImplant5.label>
+  <!-- EN: Installs implant. -->
+  <InstallImplant5.description>Installs implant.</InstallImplant5.description>
+  <!-- EN: Operating on patient. -->
+  <InstallImplant5.jobString>Operating on patient.</InstallImplant5.jobString>
+  <!-- EN: install co-processor implant -->
+  <InstallImplant6.label>install co-processor implant</InstallImplant6.label>
+  <!-- EN: Installs implant. -->
+  <InstallImplant6.description>Installs implant.</InstallImplant6.description>
+  <!-- EN: Operating on patient. -->
+  <InstallImplant6.jobString>Operating on patient.</InstallImplant6.jobString>
+  <!-- EN: install gunslinger implant -->
+  <InstallImplant7.label>install gunslinger implant</InstallImplant7.label>
+  <!-- EN: Installs implant. -->
+  <InstallImplant7.description>Installs implant.</InstallImplant7.description>
+  <!-- EN: Operating on patient. -->
+  <InstallImplant7.jobString>Operating on patient.</InstallImplant7.jobString>
+  <!-- EN: install hydraulic arm -->
+  <InstalllimbProsthethic1.label>install hydraulic arm</InstalllimbProsthethic1.label>
+  <!-- EN: Installs prosthethic. -->
+  <InstalllimbProsthethic1.description>Installs prosthethic.</InstalllimbProsthethic1.description>
+  <!-- EN: Operating on patient. -->
+  <InstalllimbProsthethic1.jobString>Operating on patient.</InstalllimbProsthethic1.jobString>
+  <!-- EN: install hydraulic leg -->
+  <InstalllimbProsthethic2.label>install hydraulic leg</InstalllimbProsthethic2.label>
+  <!-- EN: Installs prosthethic. -->
+  <InstalllimbProsthethic2.description>Installs prosthethic.</InstalllimbProsthethic2.description>
+  <!-- EN: Operating on patient. -->
+  <InstalllimbProsthethic2.jobString>Operating on patient.</InstalllimbProsthethic2.jobString>
+  <!-- EN: install hydraulic spine -->
+  <InstalllimbProsthethic3.label>install hydraulic spine</InstalllimbProsthethic3.label>
+  <!-- EN: Installs prosthethic. -->
+  <InstalllimbProsthethic3.description>Installs prosthethic.</InstalllimbProsthethic3.description>
+  <!-- EN: Operating on patient. -->
+  <InstalllimbProsthethic3.jobString>Operating on patient.</InstalllimbProsthethic3.jobString>
+  <!-- EN: install claw implant -->
+  <InstalllimbProsthethic4.label>install claw implant</InstalllimbProsthethic4.label>
+  <!-- EN: Installs prosthethic. -->
+  <InstalllimbProsthethic4.description>Installs prosthethic.</InstalllimbProsthethic4.description>
+  <!-- EN: Operating on patient. -->
+  <InstalllimbProsthethic4.jobString>Operating on patient.</InstalllimbProsthethic4.jobString>
+</LanguageData>

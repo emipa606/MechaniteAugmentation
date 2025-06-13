@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Mk-I dermis mechanites -->
+  <DermalMechanitesI.label>Mk-I dermis mechanites</DermalMechanitesI.label>
+  <!-- EN: Mk-I dermis mechanites -->
+  <DermalMechanitesI.description>Mk-I dermis mechanites</DermalMechanitesI.description>
+  <!-- EN: functioning -->
+  <DermalMechanitesI.stages.functioning.label>functioning</DermalMechanitesI.stages.functioning.label>
+  <!-- EN: degrading -->
+  <DermalMechanitesI.stages.degrading.label>degrading</DermalMechanitesI.stages.degrading.label>
+  <!-- EN: malfunctioning -->
+  <DermalMechanitesI.stages.malfunctioning.label>malfunctioning</DermalMechanitesI.stages.malfunctioning.label>
+  <!-- EN: Mk-I fibrous mechanites -->
+  <FibrousMechanitesI.label>Mk-I fibrous mechanites</FibrousMechanitesI.label>
+  <!-- EN: Mk-I fibrous mechanites -->
+  <FibrousMechanitesI.description>Mk-I fibrous mechanites</FibrousMechanitesI.description>
+  <!-- EN: functioning -->
+  <FibrousMechanitesI.stages.functioning.label>functioning</FibrousMechanitesI.stages.functioning.label>
+  <!-- EN: degrading -->
+  <FibrousMechanitesI.stages.degrading.label>degrading</FibrousMechanitesI.stages.degrading.label>
+  <!-- EN: malfunctioning -->
+  <FibrousMechanitesI.stages.malfunctioning.label>malfunctioning</FibrousMechanitesI.stages.malfunctioning.label>
+  <!-- EN: Mk-II fibrous mechanites -->
+  <FibrousMechanitesII.label>Mk-II fibrous mechanites</FibrousMechanitesII.label>
+  <!-- EN: Mk-II fibrous mechanites -->
+  <FibrousMechanitesII.description>Mk-II fibrous mechanites</FibrousMechanitesII.description>
+  <!-- EN: functioning -->
+  <FibrousMechanitesII.stages.functioning.label>functioning</FibrousMechanitesII.stages.functioning.label>
+  <!-- EN: degrading -->
+  <FibrousMechanitesII.stages.degrading.label>degrading</FibrousMechanitesII.stages.degrading.label>
+  <!-- EN: malfunctioning -->
+  <FibrousMechanitesII.stages.malfunctioning.label>malfunctioning</FibrousMechanitesII.stages.malfunctioning.label>
+  <!-- EN: Mk-III fibrous mechanites -->
+  <FibrousMechanitesIII.label>Mk-III fibrous mechanites</FibrousMechanitesIII.label>
+  <!-- EN: Mk-III fibrous mechanites -->
+  <FibrousMechanitesIII.description>Mk-III fibrous mechanites</FibrousMechanitesIII.description>
+  <!-- EN: functioning -->
+  <FibrousMechanitesIII.stages.functioning.label>functioning</FibrousMechanitesIII.stages.functioning.label>
+  <!-- EN: degrading -->
+  <FibrousMechanitesIII.stages.degrading.label>degrading</FibrousMechanitesIII.stages.degrading.label>
+  <!-- EN: malfunctioning -->
+  <FibrousMechanitesIII.stages.malfunctioning.label>malfunctioning</FibrousMechanitesIII.stages.malfunctioning.label>
+  <!-- EN: Pirated fibrous mechanites -->
+  <FibrousMechanitesIV.label>Pirated fibrous mechanites</FibrousMechanitesIV.label>
+  <!-- EN: Pirated fibrous mechanites -->
+  <FibrousMechanitesIV.description>Pirated fibrous mechanites</FibrousMechanitesIV.description>
+  <!-- EN: functioning? -->
+  <FibrousMechanitesIV.stages.functioning.label>functioning?</FibrousMechanitesIV.stages.functioning.label>
+  <!-- EN: #error#! -->
+  <FibrousMechanitesIV.stages.error.label>#error#!</FibrousMechanitesIV.stages.error.label>
+  <!-- EN: #CRITICAL#ERROR!# -->
+  <FibrousMechanitesIV.stages.CRITICALERROR.label>#CRITICAL#ERROR!#</FibrousMechanitesIV.stages.CRITICALERROR.label>
+  <!-- EN: Mk-I sensory mechanites -->
+  <SensoryMechanitesI.label>Mk-I sensory mechanites</SensoryMechanitesI.label>
+  <!-- EN: Mk-I sensory mechanites -->
+  <SensoryMechanitesI.description>Mk-I sensory mechanites</SensoryMechanitesI.description>
+  <!-- EN: functioning -->
+  <SensoryMechanitesI.stages.functioning.label>functioning</SensoryMechanitesI.stages.functioning.label>
+  <!-- EN: degrading -->
+  <SensoryMechanitesI.stages.degrading.label>degrading</SensoryMechanitesI.stages.degrading.label>
+  <!-- EN: malfunctioning -->
+  <SensoryMechanitesI.stages.malfunctioning.label>malfunctioning</SensoryMechanitesI.stages.malfunctioning.label>
+  <!-- EN: Mk-II sensory mechanites -->
+  <SensoryMechanitesII.label>Mk-II sensory mechanites</SensoryMechanitesII.label>
+  <!-- EN: Mk-II sensory mechanites -->
+  <SensoryMechanitesII.description>Mk-II sensory mechanites</SensoryMechanitesII.description>
+  <!-- EN: functioning -->
+  <SensoryMechanitesII.stages.functioning.label>functioning</SensoryMechanitesII.stages.functioning.label>
+  <!-- EN: degrading -->
+  <SensoryMechanitesII.stages.degrading.label>degrading</SensoryMechanitesII.stages.degrading.label>
+  <!-- EN: malfunctioning -->
+  <SensoryMechanitesII.stages.malfunctioning.label>malfunctioning</SensoryMechanitesII.stages.malfunctioning.label>
+  <!-- EN: Mk-III sensory mechanites -->
+  <SensoryMechanitesIII.label>Mk-III sensory mechanites</SensoryMechanitesIII.label>
+  <!-- EN: Mk-III sensory mechanites -->
+  <SensoryMechanitesIII.description>Mk-III sensory mechanites</SensoryMechanitesIII.description>
+  <!-- EN: functioning -->
+  <SensoryMechanitesIII.stages.functioning.label>functioning</SensoryMechanitesIII.stages.functioning.label>
+  <!-- EN: degrading -->
+  <SensoryMechanitesIII.stages.degrading.label>degrading</SensoryMechanitesIII.stages.degrading.label>
+  <!-- EN: malfunctioning -->
+  <SensoryMechanitesIII.stages.malfunctioning.label>malfunctioning</SensoryMechanitesIII.stages.malfunctioning.label>
+  <!-- EN: Pirated sensory mechanites -->
+  <SensoryMechanitesIV.label>Pirated sensory mechanites</SensoryMechanitesIV.label>
+  <!-- EN: Pirated sensory mechanites -->
+  <SensoryMechanitesIV.description>Pirated sensory mechanites</SensoryMechanitesIV.description>
+  <!-- EN: functioning? -->
+  <SensoryMechanitesIV.stages.functioning.label>functioning?</SensoryMechanitesIV.stages.functioning.label>
+  <!-- EN: #error#! -->
+  <SensoryMechanitesIV.stages.error.label>#error#!</SensoryMechanitesIV.stages.error.label>
+  <!-- EN: #CRITICAL#ERROR!# -->
+  <SensoryMechanitesIV.stages.CRITICALERROR.label>#CRITICAL#ERROR!#</SensoryMechanitesIV.stages.CRITICALERROR.label>
+</LanguageData>

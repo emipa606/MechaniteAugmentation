@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: badger claws -->
+  <BadgerClaw.label>badger claws</BadgerClaw.label>
+  <!-- EN: badger claws -->
+  <BadgerClaw.description>badger claws</BadgerClaw.description>
+  <!-- EN: co-processor -->
+  <CoProcess.label>co-processor</CoProcess.label>
+  <!-- EN: co-processor -->
+  <CoProcess.description>co-processor</CoProcess.description>
+  <!-- EN: gunslinger -->
+  <GunSlinger.label>gunslinger</GunSlinger.label>
+  <!-- EN: gunslinger -->
+  <GunSlinger.description>gunslinger</GunSlinger.description>
+  <!-- EN: immune booster -->
+  <ImmuneBoost.label>immune booster</ImmuneBoost.label>
+  <!-- EN: immune booster -->
+  <ImmuneBoost.description>immune booster</ImmuneBoost.description>
+  <!-- EN: metal plate -->
+  <MetalPlate.label>metal plate</MetalPlate.label>
+  <!-- EN: metal plate -->
+  <MetalPlate.description>metal plate</MetalPlate.description>
+  <!-- EN: toxin scrubber -->
+  <ToxinScrub.label>toxin scrubber</ToxinScrub.label>
+  <!-- EN: toxin scrubber -->
+  <ToxinScrub.description>toxin scrubber</ToxinScrub.description>
+</LanguageData>

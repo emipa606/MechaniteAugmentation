@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: trichrome eye prosthethic -->
+  <ColorProsthethicEye.label>trichrome eye prosthethic</ColorProsthethicEye.label>
+  <!-- EN: trichrome eye prosthethic -->
+  <ColorProsthethicEye.description>trichrome eye prosthethic</ColorProsthethicEye.description>
+  <!-- EN: light detecting eye prosthethic -->
+  <CrudeProsthethicEye.label>light detecting eye prosthethic</CrudeProsthethicEye.label>
+  <!-- EN: light detecting eye prosthethic -->
+  <CrudeProsthethicEye.description>light detecting eye prosthethic</CrudeProsthethicEye.description>
+  <!-- EN: high-definition trichrome eye prosthethic -->
+  <HDProsthethicEye.label>high-definition trichrome eye prosthethic</HDProsthethicEye.label>
+  <!-- EN: high-definition trichrome eye prosthethic -->
+  <HDProsthethicEye.description>high-definition trichrome eye prosthethic</HDProsthethicEye.description>
+  <!-- EN: hydraulic arm -->
+  <HydraulicArm.label>hydraulic arm</HydraulicArm.label>
+  <!-- EN: hydraulic arm -->
+  <HydraulicArm.description>hydraulic arm</HydraulicArm.description>
+  <!-- EN: hydraulic leg -->
+  <HydraulicLeg.label>hydraulic leg</HydraulicLeg.label>
+  <!-- EN: hydraulic leg -->
+  <HydraulicLeg.description>hydraulic leg</HydraulicLeg.description>
+  <!-- EN: hydraulic spine -->
+  <HydraulicSpine.label>hydraulic spine</HydraulicSpine.label>
+  <!-- EN: hydraulic spine -->
+  <HydraulicSpine.description>hydraulic spine</HydraulicSpine.description>
+  <!-- EN: sharpshooter -->
+  <SharpShooter.label>sharpshooter</SharpShooter.label>
+  <!-- EN: sharpshooter -->
+  <SharpShooter.description>sharpshooter</SharpShooter.description>
+  <!-- EN: monochrome eye prosthethic -->
+  <SimpleProsthethicEye.label>monochrome eye prosthethic</SimpleProsthethicEye.label>
+  <!-- EN: monochrome eye prosthethic -->
+  <SimpleProsthethicEye.description>monochrome eye prosthethic</SimpleProsthethicEye.description>
+</LanguageData>
