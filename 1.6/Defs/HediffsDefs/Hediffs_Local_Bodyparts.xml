@@ -38,12 +38,13 @@
   </HediffDef>
   <HediffDef ParentName="MAAddedBodyPartBase">
     <defName>HDProsthethicEye</defName>
-    <label>high-definition trichrome eye prosthethic</label>
-    <description>high-definition trichrome eye prosthethic</description>
+    <label>high-definition eye prosthethic</label>
+    <description>high-definition eye prosthethic</description>
     <spawnThingOnRemoved>HDProsthethicEye</spawnThingOnRemoved>
     <addedPartProps>
       <solid>true</solid>
       <partEfficiency>1.0</partEfficiency>
+      <betterThanNatural>true</betterThanNatural>
     </addedPartProps>
   </HediffDef>
   <HediffDef ParentName="MAAddedBodyPartBase">
@@ -61,6 +62,7 @@
     <addedPartProps>
       <solid>true</solid>
       <partEfficiency>1.0</partEfficiency>
+      <betterThanNatural>true</betterThanNatural>
     </addedPartProps>
   </HediffDef>
   <HediffDef ParentName="MAAddedBodyPartBase">
@@ -83,6 +85,7 @@
     <addedPartProps>
       <solid>true</solid>
       <partEfficiency>0.92</partEfficiency>
+      <betterThanNatural>true</betterThanNatural>
     </addedPartProps>
   </HediffDef>
   <HediffDef ParentName="MAAddedBodyPartBase">

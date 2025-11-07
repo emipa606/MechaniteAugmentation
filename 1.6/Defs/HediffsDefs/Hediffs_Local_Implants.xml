@@ -123,6 +123,7 @@
     <addedPartProps>
       <solid>false</solid>
       <partEfficiency>0.92</partEfficiency>
+      <betterThanNatural>true</betterThanNatural>
     </addedPartProps>
   </HediffDef>
   <!--HediffDef ParentName="MAImplantHediffBase">
