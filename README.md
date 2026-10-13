@@ -41,4 +41,4 @@ Now rebalanced by Wendigo and Updated by Love. (A person I am told, not the emot
 
  
 
-[![Image](https://img.shields.io/github/v/release/emipa606/MechaniteAugmentation?label=latest%20version&style=plastic&color=9f1111&labelColor=black)](https://steamcommunity.com/sharedfiles/filedetails/changelog/2016288225) | tags: cybernetics
+[![Image](https://img.shields.io/github/v/release/emipa606/MechaniteAugmentation?label=latest%20version&style=plastic&color=9f1111&labelColor=black)](https://steamcommunity.com/sharedfiles/filedetails/changelog/2016288225) | cybernetics
